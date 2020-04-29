@@ -1,0 +1,37 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+html {
+  font-family: 'Open Sans', 'Helvetica Neue', 'Calibri', 'Lucida Grande', 'sans-serif' !important; 
+}
+
+/* NAVBAR */
+.navbar__resume-button:hover {
+  background-color: theme('colors.purple.900');
+}
+
+/* COLORS */
+.text-white {
+  color: #ffffff;
+}
+
+.purple-500 {
+  background-color: theme('colors.purple.500');
+}
+
+.purple-700 {
+  background-color: theme('colors.purple.700');
+}
+
+.purple-900 {
+  background-color: theme('colors.purple.900');
+}
+
+/* PADDING */
+
+.round-15 {
+  border-radius: 15px;
+}
