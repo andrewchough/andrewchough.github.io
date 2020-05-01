@@ -54,7 +54,7 @@ html {
 
 .hero__background-color {
   background-color: black;
-  opacity: 75%;
+  opacity: 80% !important;
 }
 
 .hero__name {
