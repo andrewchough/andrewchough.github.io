@@ -9,8 +9,9 @@ module.exports = {
       transparent: 'transparent',
       purple: {
         500: '#6C4080',
-        700: '#2F2832',
-        900: '#452C50',
+        650: '29242e',
+        700: '#26232d',
+        900: '#452C50'
       }
       // blue: rgb(20, 115, 230),
       // gray: {

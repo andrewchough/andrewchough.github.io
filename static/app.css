@@ -8,9 +8,59 @@ html {
   font-family: 'Open Sans', 'Helvetica Neue', 'Calibri', 'Lucida Grande', 'sans-serif' !important; 
 }
 
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 564px) {
+  .navbar__resume-button {
+    display: none;
+  }
+
+  .navbar__contact-link {
+    display: none;
+  }
+
+  .navbar__container {
+    color: 
+  }
+
+  .navbar__name__container {
+    width: 100%;
+  }
+
+  .navbar__name {
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero__background-image {
+    height: 46em !important;
+  }
+
+  .hero__name {
+    display: none;
+  }
+}
+
 /* NAVBAR */
 .navbar__resume-button:hover {
   background-color: theme('colors.purple.900');
+}
+
+/* HERO */
+.hero__background-image {
+  background-image: url('../static/images/beachBackground.png');
+  height: 40em;
+}
+
+.hero__background-color {
+  background-color: black;
+  opacity: 75%;
+}
+
+.hero__name {
+  margin: auto;
+  padding-left: 1em;
+  height: 25%;
 }
 
 /* COLORS */
@@ -18,15 +68,19 @@ html {
   color: #ffffff;
 }
 
-.purple-500 {
+.bg-purple-500 {
   background-color: theme('colors.purple.500');
 }
 
-.purple-700 {
+.bg-purple-650 {
+  background-color: theme('colors.purple.650');
+}
+
+.bg-purple-700 {
   background-color: theme('colors.purple.700');
 }
 
-.purple-900 {
+.bg-purple-900 {
   background-color: theme('colors.purple.900');
 }
 
