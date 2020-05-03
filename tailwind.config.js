@@ -1,16 +1,27 @@
+/* eslint-disable quote-props */
 module.exports = {
   theme: {
     // extend: {},
     fontFamily: {
       display: ['Open Sans', 'Helvetica Neue', 'Calibri', 'Lucida Grande', 'sans-serif'],
-      body: ['Open Sans', 'Helvetica Neue', 'Calibri', 'Lucida Grande', 'sans-serif'],
+      body: ['Open Sans', 'Helvetica Neue', 'Calibri', 'Lucida Grande', 'sans-serif']
+    },
+    screens: {
+      'sm-max': { 'max': '639px' },
+      'md-max': { 'max': '767px' },
+      'lg-max': { 'max': '1023px' },
+      'xl-max': { 'max': '1279px' },
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px'
     },
     colors: {
       transparent: 'transparent',
       purple: {
         500: '#6C4080',
         650: '29242e',
-        700: '#26232d',
+        700: '#1a0f22',
         900: '#452C50'
       }
       // blue: rgb(20, 115, 230),
@@ -28,5 +39,5 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: [],
+  plugins: []
 }

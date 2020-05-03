@@ -48,19 +48,27 @@ html {
 
 /* HERO */
 .hero__background-image {
-  background-image: url('../static/images/beachBackground.png');
+  background-image: url('../static/images/beach-background.png');
   height: 40em;
-}
-
-.hero__background-color {
-  background-color: black;
-  opacity: 80% !important;
-}
+};
 
 .hero__name {
-  margin: auto;
-  padding-left: 1em;
+  padding-left: 10em;
   height: 25%;
+}
+
+.hero__image {
+  content:url('../static/images/me-two.png');
+}
+
+.hero__line {
+  margin: 30px 0 30px 25%;
+  width: 50%;
+  text-align: center;
+}
+
+.hero__column {
+  margin: auto;
 }
 
 /* COLORS */
