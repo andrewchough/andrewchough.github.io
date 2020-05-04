@@ -93,9 +93,27 @@ html {
   color: #CBCBCB;
 }
 
+/* SKILLS */
+.skills__xd__image {
+  content:url('../static/images/xd.png');
+  height: 50px;
+}
+
+.skills__react__image {
+  content:url('../static/images/react.png');
+}
+
 /* COLORS */
 .text-white {
   color: #ffffff;
+}
+
+.text-light-blue {
+  color: #bcdcf7;
+}
+
+.text-light-green {
+  color: #cafff3;
 }
 
 .bg-purple-500 {

@@ -6,7 +6,7 @@ export default function About () {
       <div className="md:col-span-2 block__header md:py-10 py-4">
         <h2 className="text-4xl font-semibold">ABOUT</h2>
       </div>
-      <div className="md:col-span-4 p-12 lg:px-20 lg:py-20 block__section">
+      <div className="md:col-span-4 p-12 lg:p-20 block__section">
         <p className="font-thin text-center sm-max:text-sm"><b>Hi! </b>
           My name is Andrew Chough and I&apos;m currently a software engineer at Adobe, currently residing in New York City.
         </p>
