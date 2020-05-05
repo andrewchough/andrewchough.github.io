@@ -19,7 +19,7 @@ export default function Hero (props) {
         <div className="grid grid-cols-1 grid-flow-col h-full sm-max:block sm:hidden">
           <div className="col-span-1 hero__column">
             <div className="text-white text-xl text-center md-max:block hero__name my-12">
-              UI/UX Designer | Software Engineer
+            <p>UI/UX <span className="text-light-blue underline">Designer</span> | Software <span className="underline text-light-green">Engineer</span></p>
             </div>
           </div>
         </div>

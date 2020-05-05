@@ -101,6 +101,12 @@ html {
 
 .skills__react__image {
   content:url('../static/images/react.png');
+  height: 50px;
+}
+
+.skills__vertical-line {
+  content:url('../static/images/line.png');
+  max-width: none;
 }
 
 /* COLORS */
