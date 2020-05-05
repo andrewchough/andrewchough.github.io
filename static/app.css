@@ -63,6 +63,10 @@ html {
 .hero__background-image {
   background-image: url('../static/images/beach-background.png');
   height: 90vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 };
 
 .hero__name {
@@ -107,6 +111,23 @@ html {
 .skills__vertical-line {
   content:url('../static/images/line.png');
   max-width: none;
+}
+
+/* PROJEECTS */
+
+.projects__hurt-alert {
+  content:url('../static/images/hurtAlert.png');
+  border-radius: 10px;
+}
+
+.projects__poke-locate {
+  content:url('../static/images/pokeLocate.png');
+  border-radius: 10px;
+}
+
+.projects__cocoon {
+  content:url('../static/images/cocoon.png');
+  border-radius: 10px;
 }
 
 /* COLORS */
