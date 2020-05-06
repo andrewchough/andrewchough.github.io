@@ -4,7 +4,7 @@ export default function Projects () {
   return (
     <div className="grid md:grid-cols-8 items-center block__container">
       <div className="md:col-span-2 block__section p-8">
-        <a href="https://github.com/kunaljaydesai/CrimeApp">
+        <a href="https://github.com/kunaljaydesai/CrimeApp" target="_blank" rel="noopener noreferrer">
           <img className="projects__hurt-alert"></img>
         </a>
         <p className="my-4 text-sm">
@@ -18,7 +18,7 @@ export default function Projects () {
         </p>
       </div>
       <div className="md:col-span-2 block__section p-8">
-        <a href="https://github.com/anthonykim02/poke-locate">
+        <a href="https://github.com/anthonykim02/poke-locate" target="_blank" rel="noopener noreferrer">
           <img className="projects__poke-locate"></img>
         </a>
         <p className="my-4 text-sm">
@@ -33,7 +33,7 @@ export default function Projects () {
         </p>
       </div>
       <div className="md:col-span-2 block__section p-8">
-        <a href="https://github.com/andrewchough/polis-website">
+        <a href="https://github.com/andrewchough/polis-website" target="_blank" rel="noopener noreferrer">
           <img className="projects__cocoon"></img>
         </a>
         <p className="my-4 text-sm">

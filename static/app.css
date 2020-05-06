@@ -143,6 +143,10 @@ html {
   color: #cafff3;
 }
 
+.text-purple-600 {
+  color: theme('colors.purple.600');
+}
+
 .bg-purple-500 {
   background-color: theme('colors.purple.500');
 }
@@ -160,7 +164,14 @@ html {
 }
 
 /* PADDING */
+.bleh {
+  display: inline !important;
+}
 
 .round-15 {
   border-radius: 15px;
+}
+
+.svg-container svg {
+  margin: auto;
 }

@@ -7,7 +7,7 @@ import About from '../components/About'
 import Experience from '../components/Experience'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
-import Social from '../components/Social'
+import Footer from '../components/Footer'
 
 export default () => (
   <div className="container">
@@ -17,6 +17,6 @@ export default () => (
     <Experience />
     <Skills />
     <Projects />
-    <Social />
+    <Footer />
   </div>
 )
