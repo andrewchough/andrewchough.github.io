@@ -47,9 +47,9 @@ const Education = () => {
                 {...node.icon.childImageSharp}
               />
               <h6 className="mt-3 font-semibold text-2xl">{node.title}</h6>
-              <h6 className="font-thin text-xs">({node.time})</h6>
-              <h6 className="mt-1 font-thin">{node.degree}</h6>
-              <h6 className="mt-1 font-thin">{node.location}</h6>
+              <h6 className="font-light text-xs">({node.time})</h6>
+              <h6 className="mt-1 font-light">{node.degree}</h6>
+              <h6 className="mt-1 font-light">{node.location}</h6>
             </div>
           </div>
         )

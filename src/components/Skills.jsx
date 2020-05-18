@@ -11,9 +11,9 @@ export default function Skills () {
         <div className="text-center">
           <h2 className="my-4">UI/UX Prototyping &amp; Design</h2>
           <ul>
-            <li className="font-thin">•&nbsp;Adobe XD</li>
-            <li className="font-thin">•&nbsp;Sketch</li>
-            <li className="font-thin">•&nbsp;Adobe Photoshop</li>
+            <li className="font-light">•&nbsp;Adobe XD</li>
+            <li className="font-light">•&nbsp;Sketch</li>
+            <li className="font-light">•&nbsp;Adobe Photoshop</li>
           </ul>
         </div>
       </div>
@@ -22,10 +22,10 @@ export default function Skills () {
         <div className="text-center">
           <h2 className="my-4">Tech Stack</h2>
           <ul>
-            <li className="font-thin">•&nbsp;Javascript (React, Redux, jQuery)</li>
-            <li className="font-thin">•&nbsp;CSS (SASS, Bootstrap)</li>
-            <li className="font-thin">•&nbsp;Ruby on Rails</li>
-            <li className="font-thin">•&nbsp;Python</li>
+            <li className="font-light">•&nbsp;Javascript (React, Redux, jQuery)</li>
+            <li className="font-light">•&nbsp;CSS (SASS, Bootstrap)</li>
+            <li className="font-light">•&nbsp;Ruby on Rails</li>
+            <li className="font-light">•&nbsp;Python</li>
           </ul>
         </div>
       </div>

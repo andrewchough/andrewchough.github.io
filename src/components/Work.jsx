@@ -48,9 +48,9 @@ const Work = () => {
               <div> 
                 <h6 className="mt-3 font-semibold text-2xl">{node.title}</h6>
               </div>
-              <span className="font-thin text-xs">({node.time})</span>
-              <h6 className="mt-1 font-thin">{node.position}</h6>
-              <h6 className="mt-1 font-thin">{node.location}</h6>
+              <span className="font-light text-xs">({node.time})</span>
+              <h6 className="mt-1 font-light">{node.position}</h6>
+              <h6 className="mt-1 font-light">{node.location}</h6>
             </div>
           </div>
         )
