@@ -28,7 +28,7 @@ const Work = () => {
   `)
 
   return (
-    <div className="block__section py-16 lg:px-12 ">
+    <div className="block__section py-16 md-max:py-8 lg:px-12 ">
       <div className="flex items-center pl-3">
         <FaLaptop />
         <h6 className="ml-3 font-semibold">WORK</h6>
@@ -40,7 +40,7 @@ const Work = () => {
             className="flex py-4 md-max:pl-3"
           >
             <div className="w-1 bg-purple-500 md:ml-6 rounded-full" />
-            <div className="ml-8">
+            <div className="ml-5 md:ml-8">
               <GatsbyImage
                 className="w-8 h-8"
                 {...node.icon.childImageSharp}

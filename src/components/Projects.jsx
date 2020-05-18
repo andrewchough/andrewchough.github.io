@@ -20,7 +20,7 @@ export default function Projects () {
           Sketch, HTML, CSS
         </p>
       </div>
-      <div className="md:col-span-2 block__section px-8 py-16 h-full">
+      <div className="md:col-span-2 block__section px-8 py-16 md-max:pt-0 h-full">
         <a href="https://github.com/anthonykim02/poke-locate" target="_blank" rel="noopener noreferrer">
           <img className="projects__poke-locate"></img>
         </a>
@@ -35,7 +35,7 @@ export default function Projects () {
           Photoshop, Sketch, Swift
         </p>
       </div>
-      <div className="md:col-span-2 block__section px-8 py-16 h-full">
+      <div className="md:col-span-2 block__section px-8 py-16 md-max:py-0 h-full">
         <a href="https://github.com/andrewchough/polis-website" target="_blank" rel="noopener noreferrer">
           <img className="projects__cocoon"></img>
         </a>
