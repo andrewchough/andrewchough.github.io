@@ -3,7 +3,10 @@ import React from 'react'
 export default function Projects () {
   return (
     <div className="grid md:grid-cols-8 items-center block__container">
-      <div className="md:col-span-2 block__section px-8 py-20 h-full">
+      <div className="md:col-span-2 block__header md:py-10 py-4 md:hidden">
+        <h2 className="text-4xl font-semibold">PROJECTS</h2>
+      </div>
+      <div className="md:col-span-2 block__section px-8 py-16 h-full">
         <a href="https://github.com/kunaljaydesai/CrimeApp" target="_blank" rel="noopener noreferrer">
           <img className="projects__hurt-alert"></img>
         </a>
@@ -17,7 +20,7 @@ export default function Projects () {
           Sketch, HTML, CSS
         </p>
       </div>
-      <div className="md:col-span-2 block__section px-8 py-20 h-full">
+      <div className="md:col-span-2 block__section px-8 py-16 h-full">
         <a href="https://github.com/anthonykim02/poke-locate" target="_blank" rel="noopener noreferrer">
           <img className="projects__poke-locate"></img>
         </a>
@@ -32,7 +35,7 @@ export default function Projects () {
           Photoshop, Sketch, Swift
         </p>
       </div>
-      <div className="md:col-span-2 block__section px-8 py-20 h-full">
+      <div className="md:col-span-2 block__section px-8 py-16 h-full">
         <a href="https://github.com/andrewchough/polis-website" target="_blank" rel="noopener noreferrer">
           <img className="projects__cocoon"></img>
         </a>
@@ -46,7 +49,7 @@ export default function Projects () {
           Sketch, HTML, CSS
         </p>
       </div>
-      <div className="md:col-span-2 block__header md:py-10 py-4">
+      <div className="md:col-span-2 block__header md:py-10 py-4 md-max:hidden">
         <h2 className="text-4xl font-semibold">PROJECTS</h2>
       </div>
     </div>

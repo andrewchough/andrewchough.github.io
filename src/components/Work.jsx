@@ -28,7 +28,7 @@ const Work = () => {
   `)
 
   return (
-    <div className="block__section lg:py-20 md:py-12 lg:px-12 ">
+    <div className="block__section py-16 lg:px-12 ">
       <div className="flex items-center pl-3">
         <FaLaptop />
         <h6 className="ml-3 font-semibold">WORK</h6>

@@ -28,7 +28,7 @@ const Education = () => {
   `)
 
   return (
-    <div className="block__section lg:py-20 md:py-12 lg:pr-12 h-full">
+    <div className="block__section md:py-16 md-max:pb-16 pr-12 h-full">
       <div className="flex items-center pl-3">
         <FaSchool />
         <h6 className="ml-3 font-semibold">EDUCATION</h6>
@@ -46,9 +46,8 @@ const Education = () => {
                 className="w-8 h-8"
                 {...node.icon.childImageSharp}
               />
-              <div> 
-                <h6 className="mt-3 font-semibold text-2xl">{node.title} <span className="font-thin text-base">({node.time})</span></h6>
-              </div>
+              <h6 className="mt-3 font-semibold text-2xl">{node.title}</h6>
+              <h6 className="font-thin text-xs">({node.time})</h6>
               <h6 className="mt-1 font-thin">{node.degree}</h6>
               <h6 className="mt-1 font-thin">{node.location}</h6>
             </div>
