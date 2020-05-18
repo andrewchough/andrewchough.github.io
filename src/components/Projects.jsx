@@ -10,11 +10,11 @@ export default function Projects () {
         <a href="https://github.com/kunaljaydesai/CrimeApp" target="_blank" rel="noopener noreferrer">
           <img className="projects__hurt-alert"></img>
         </a>
-        <p className="my-4 text-sm font-thin">
+        <p className="my-4 text-sm font-light">
           A web and mobile application to allow students to report suspicious activity within Berkeley, CA.
           Winner of the Code4Impact award at AngelHack Silicon Valley.
         </p>
-        <p className="my-4 text-sm font-thin">
+        <p className="my-4 text-sm font-light">
           <b>Technology used:</b>
           <br/>
           Sketch, HTML, CSS
@@ -24,12 +24,12 @@ export default function Projects () {
         <a href="https://github.com/anthonykim02/poke-locate" target="_blank" rel="noopener noreferrer">
           <img className="projects__poke-locate"></img>
         </a>
-        <p className="my-4 text-sm font-thin">
+        <p className="my-4 text-sm font-light">
         A complement iOS application for the mobile app Pokémon GO.
         Users report Pokémon they find onto a map, which displays locations of other
         Pokémon.
         </p>
-        <p className="my-4 text-sm font-thin">
+        <p className="my-4 text-sm font-light">
           <b>Technology used:</b>
           <br/>
           Photoshop, Sketch, Swift
@@ -39,11 +39,11 @@ export default function Projects () {
         <a href="https://github.com/andrewchough/polis-website" target="_blank" rel="noopener noreferrer">
           <img className="projects__cocoon"></img>
         </a>
-        <p className="my-4 text-sm font-thin">
+        <p className="my-4 text-sm font-light">
         A landing page for the Polis, presented and demonstrated at Boston
         College&apos;s Accelerate@Shea: Demo Day, which showcases up and coming entrepreneurs.
         </p>
-        <p className="my-4 text-sm font-thin">
+        <p className="my-4 text-sm font-light">
           <b>Technology used:</b>
           <br/>
           Sketch, HTML, CSS
