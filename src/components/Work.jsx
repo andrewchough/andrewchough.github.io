@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery } from "gatsby"
 import GatsbyImage from "gatsby-image"
 import { FaLaptop } from 'react-icons/fa'
+import Slide from 'react-reveal/Slide'
 
 const Work = () => {
   const data = useStaticQuery(graphql`
@@ -10,6 +11,7 @@ const Work = () => {
         edges {
           node {
             id
+            index
             title
             position
             time
@@ -34,25 +36,28 @@ const Work = () => {
         <h6 className="ml-3 font-semibold">WORK</h6>
       </div>
       {data.allWorkJson.edges.map(({ node }) => {
+        console.log(node.index);
         return (
-          <div
-            key={node.id}
-            className="flex py-4 md-max:pl-3"
-          >
-            <div className="w-1 bg-purple-500 md:ml-6 rounded-full" />
-            <div className="ml-5 md:ml-8">
-              <GatsbyImage
-                className="w-8 h-8"
-                {...node.icon.childImageSharp}
-              />
-              <div> 
-                <h6 className="mt-3 font-semibold text-2xl">{node.title}</h6>
+          <Slide top duration={500 * node.index}> 
+            <div
+              key={node.id}
+              className="flex py-4 md-max:pl-3"
+            >
+              <div className="w-1 bg-purple-500 md:ml-6 rounded-full" />
+              <div className="ml-5 md:ml-8">
+                <GatsbyImage
+                  className="w-8 h-8"
+                  {...node.icon.childImageSharp}
+                />
+                <div> 
+                  <h6 className="mt-3 font-semibold text-2xl">{node.title}</h6>
+                </div>
+                <span className="font-light text-xs">({node.time})</span>
+                <h6 className="mt-1 font-light">{node.position}</h6>
+                <h6 className="mt-1 font-light">{node.location}</h6>
               </div>
-              <span className="font-light text-xs">({node.time})</span>
-              <h6 className="mt-1 font-light">{node.position}</h6>
-              <h6 className="mt-1 font-light">{node.location}</h6>
             </div>
-          </div>
+          </Slide>
         )
       })}
     </div>

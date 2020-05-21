@@ -1,5 +1,6 @@
 [
   {
+    "index": 1,
     "icon": "../../static/images/adobe.png",
     "title": "ADOBE",
     "position": "Platform Software Engineer",
@@ -7,6 +8,7 @@
     "location": "New York, NY"
   },
   {
+    "index": 2,
     "icon": "../../static/images/bc-dining.png",
     "title": "BOSTON COLLEGE DINING",
     "position": "Graphic Design Intern",
@@ -14,6 +16,7 @@
     "location": "Chestnut Hill, MA"
   },
   {
+    "index": 3,
     "icon": "../../static/images/adobe.png",
     "title": "ADOBE",
     "position": "Web Development Intern",
