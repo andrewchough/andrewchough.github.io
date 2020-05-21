@@ -38,7 +38,7 @@ const Work = () => {
       {data.allWorkJson.edges.map(({ node }) => {
         console.log(node.index);
         return (
-          <Slide top duration={500 * node.index}> 
+          <Slide left duration={300 * node.index}> 
             <div
               key={node.id}
               className="flex py-4 md-max:pl-3"

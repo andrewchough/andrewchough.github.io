@@ -38,7 +38,7 @@ const Education = () => {
       {/* timeline goes here */}
       {data.allEducationJson.edges.map(({ node }) => {
         return (
-          <Slide top duration={500 * node.index}> 
+          <Slide right duration={300 * node.index}> 
             <div
               key={node.id}
               className="flex py-4 md-max:pl-3"
