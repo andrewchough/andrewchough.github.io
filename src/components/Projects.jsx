@@ -8,7 +8,7 @@ export default function Projects () {
       </div>
       <div className="md:col-span-2 block__section px-8 py-16 h-full">
         <a href="https://github.com/kunaljaydesai/CrimeApp" target="_blank" rel="noopener noreferrer">
-          <img className="projects__hurt-alert"></img>
+          <img className="projects__hurt-alert projects__item"></img>
         </a>
         <p className="my-4 text-sm font-light">
           A web and mobile application to allow students to report suspicious activity within Berkeley, CA.
@@ -22,7 +22,7 @@ export default function Projects () {
       </div>
       <div className="md:col-span-2 block__section px-8 py-16 md-max:pt-0 h-full">
         <a href="https://github.com/anthonykim02/poke-locate" target="_blank" rel="noopener noreferrer">
-          <img className="projects__poke-locate"></img>
+          <img className="projects__poke-locate projects__item"></img>
         </a>
         <p className="my-4 text-sm font-light">
         A complement iOS application for the mobile app Pokémon GO.
@@ -37,7 +37,7 @@ export default function Projects () {
       </div>
       <div className="md:col-span-2 block__section px-8 py-16 md-max:py-0 h-full">
         <a href="https://github.com/andrewchough/polis-website" target="_blank" rel="noopener noreferrer">
-          <img className="projects__cocoon"></img>
+          <img className="projects__cocoon projects__item "></img>
         </a>
         <p className="my-4 text-sm font-light">
         A landing page for the Polis, presented and demonstrated at Boston

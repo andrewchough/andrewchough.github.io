@@ -15,6 +15,9 @@ export default function Footer () {
           <FaEnvelope className="margin-auto inline my-6 mx-4 text-purple-600" />
         </a>
       </div>
+      <div className="mx-auto my-4">
+        <p className="font-thin text-xs footer">COPYRIGHT © 2020 ANDREW CHOUGH</p>
+      </div>
     </div>
   )
 }

@@ -126,6 +126,18 @@ html {
   border-radius: 10px;
 }
 
+.projects__item {
+  transition: transform .3s;
+}
+
+.projects__item:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  opacity: 0.4;
+}
+
 /* COLORS */
 .text-white {
   color: #ffffff;
