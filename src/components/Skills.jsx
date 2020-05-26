@@ -7,7 +7,7 @@ export default function Skills () {
         <h2 className="text-4xl font-semibold">SKILLS</h2>
       </div>
       <div className="md:col-span-2 lg:col-span-3 block__section p-16 md-max:p-8 h-full">
-        <img className="skills__xd__image mx-auto"></img>
+        <img className="skills__xd__image mx-auto" alt="Picture of the Adobe XD logo"></img>
         <div className="text-center">
           <h2 className="my-4">UI/UX Prototyping &amp; Design</h2>
           <ul>
@@ -18,7 +18,7 @@ export default function Skills () {
         </div>
       </div>
       <div className="md:col-span-2 lg:col-span-3 block__section p-16 md-max:pt-0 md-max:p-8 lh-full">
-        <img className="skills__react__image mx-auto"></img>
+        <img className="skills__react__image mx-auto" alt="Picture of the React logo"></img>
         <div className="text-center">
           <h2 className="my-4">Tech Stack</h2>
           <ul>

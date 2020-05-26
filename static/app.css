@@ -128,14 +128,17 @@ html {
 
 .projects__item {
   transition: transform .3s;
+  -webkit-transition: transform .3s;
 }
 
 .projects__item:hover {
   transform: scale(1.05);
+  -webkit-transform: scale(1.05);
 }
 
 .footer {
-  opacity: 0.4;
+  opacity: 1.0;
+  color: #000000;
 }
 
 /* COLORS */

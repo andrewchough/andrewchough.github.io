@@ -13,7 +13,9 @@ export default function Hero (props) {
             </div>
           </div>
           <div className="col-span-2 my-auto">
-            <img className="hero__image md-max:m-auto sm-max:w-3/4 md:m-0" />
+            <img className="hero__image md-max:m-auto sm-max:w-3/4 md:m-0"
+                  alt="Picture of Andrew Chough"
+            />
           </div>
         </div>
         <div className="grid grid-cols-1 grid-flow-col h-full sm-max:block sm:hidden">
