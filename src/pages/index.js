@@ -10,6 +10,7 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 
+
 export default () => (
   <div className="container">
     <Helmet>

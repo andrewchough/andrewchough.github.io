@@ -24,7 +24,7 @@ export default function Projects () {
       </div>
       <div className="md:col-span-2 block__section px-8 py-16 md-max:pt-0 h-full">
         <a href="https://github.com/anthonykim02/poke-locate" target="_blank" rel="noopener noreferrer">
-          <img className="projects__poke-locate projects__item"
+          <img className="projects__poke-locate projects__item" 
             alt="Image of the Poke Locate logo"
           />
         </a>
