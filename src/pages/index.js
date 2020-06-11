@@ -10,13 +10,12 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 
-
 export default () => (
   <div className="container">
     <Helmet>
       <meta charSet="utf-8" />
       <meta name="description" content="Andrew Chough's Portfolio, describing himself, his passions, and what he's worked on." />
-      <title>Andrew Chough's Portfolio</title>
+      <title>Andrew Chough&apos;s Portfolio</title>
       <html lang="en" />
     </Helmet>
     <Navbar />

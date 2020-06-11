@@ -1,6 +1,4 @@
 import React from 'react'
-import { graphql, useStaticQuery } from "gatsby"
-import GatsbyImage from "gatsby-image"
 import Work from '../components/Work'
 import Education from '../components/Education'
 
@@ -24,5 +22,4 @@ const Experience = () => {
   )
 }
 
-export default Experience;
-
+export default Experience

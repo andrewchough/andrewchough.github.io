@@ -9,11 +9,11 @@ module.exports = {
     screens: {
       'sm-max': { 'max': '639px' },
       'md-max': { 'max': '767px' },
-      'lg-max': { 'max': '1023px' },
+      'lg-max': { 'max': '1144px' },
       'xl-max': { 'max': '1279px' },
       'sm': '640px',
       'md': '768px',
-      'lg': '1024px',
+      'lg': '1145px',
       'xl': '1280px'
     },
     colors: {
