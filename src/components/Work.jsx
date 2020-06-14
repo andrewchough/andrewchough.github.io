@@ -1,6 +1,6 @@
 import React from 'react'
-import { graphql, useStaticQuery } from "gatsby"
-import GatsbyImage from "gatsby-image"
+import { graphql, useStaticQuery } from 'gatsby'
+import GatsbyImage from 'gatsby-image'
 import { FaLaptop } from 'react-icons/fa'
 import Slide from 'react-reveal/Slide'
 
@@ -36,9 +36,8 @@ const Work = () => {
         <h6 className="ml-3 font-semibold">WORK</h6>
       </div>
       {data.allWorkJson.edges.map(({ node }) => {
-        console.log(node.index);
         return (
-          <Slide left duration={300 * node.index}> 
+          <Slide left duration={300 * node.index}>
             <div
               key={node.id}
               className="flex py-4 md-max:pl-3"
@@ -49,7 +48,7 @@ const Work = () => {
                   className="w-8 h-8"
                   {...node.icon.childImageSharp}
                 />
-                <div> 
+                <div>
                   <h6 className="mt-3 font-semibold text-2xl">{node.title}</h6>
                 </div>
                 <span className="font-light text-xs">({node.time})</span>

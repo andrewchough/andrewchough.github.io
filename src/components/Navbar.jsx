@@ -4,7 +4,7 @@ export default function Navbar () {
   return (
     <div className="flex items-center justify-between flex-wrap p-5 bg-purple-700 navbar__container">
       <div className="flex items-center flex-shrink-0 navbar__name__container">
-        <span className="font-medium text-2xl tracking-tight text-white lg:ml-5 navbar__name">ANDREW CHOUGH</span>
+        <a href="/" className="hover:underline font-medium text-2xl tracking-tight text-white lg:ml-5 navbar__name">ANDREW CHOUGH</a>
       </div>
       <div className="float-right">
         <a
