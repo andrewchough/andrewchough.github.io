@@ -15,13 +15,13 @@ html {
 .block__container--light {
   background-color: theme('colors.purple.50');
   color: theme('colors.purple.650');
-  transition: background-color 0.50s ease;
+  transition: background-color 0.60s ease;
 }
 
 .block__container--dark {
   background-color: theme('colors.purple.650');
   color: theme('colors.purple.50');
-  transition: background-color 0.50s ease;
+  transition: background-color 0.60s ease;
 }
 
 .block__header {
@@ -81,12 +81,12 @@ html {
 
 .hero__light {
   background-image: url('../static/images/beach-light.png');
-  transition: background-image 0.50s ease-in-out;
+  transition: background-image 0.65s ease-in-out;
 }
 
 .hero__background-image {
   background-image: url('../static/images/beach-background.png');
-  transition: background-image 0.50s ease-in-out;
+  transition: background-image 0.65s ease-in-out;
 };
 
 .hero__name {
@@ -181,22 +181,22 @@ html {
 
 .text-light-blue {
   color: #bcdcf7;
-  transition: color 0.30s ease;
+  transition: color 0.50s ease;
 }
 
 .text-dark-blue { 
   color: #006dca;
-  transition: color 0.30s ease;
+  transition: color 0.50s ease;
 }
 
 .text-light-green {
   color: #cafff3;
-  transition: color 0.30s ease;
+  transition: color 0.50s ease;
 }
 
 .text-dark-green {
   color: #086751;
-  transition: color 0.30s ease;
+  transition: color 0.50s ease;
 }
 
 .text-purple-600 {

@@ -21,7 +21,7 @@ export default function About () {
         </Fade>
         <Fade>
           <p className="font-light text-center sm-max:text-sm text-black">
-            Full-time <b>engineer</b>. Aspiring <b>life-liver</b>. Professional <b>layup misser</b>. Beach <b>lover</b>.
+            Full-time <b>designer &amp; engineer</b>. Aspiring <b>life-liver</b>. Professional <b>layup misser</b>. Beach <b>lover</b>.
           </p>
           <hr className="about__line" />
         </Fade>
