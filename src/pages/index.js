@@ -11,7 +11,17 @@ import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 
 export default function () {
-  const [darkTheme, setDarkTheme] = React.useState(false)
+  const [darkTheme, setDarkTheme] = React.useState(getDefaultTheme())
+
+  React.useEffect(() => {
+    localStorage.setItem('dark', JSON.stringify(darkTheme))
+  }, [darkTheme])
+
+  function getDefaultTheme () {
+    const selectedTheme = JSON.parse(localStorage.getItem('dark'))
+    return selectedTheme || false
+  }
+
   return (
     <div className={darkTheme ? 'container block__container--dark' : 'container block__container--light'}>
       <Helmet>

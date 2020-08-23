@@ -8,7 +8,7 @@ Hero.propTypes = {
 
 export default function Hero (props) {
   return (
-    <div className={props.theme ? 'w-full hero__background hero__background-image' : 'w-full hero__background hero__light'}>
+    <div className={props.theme ? 'w-full hero__background hero__dark' : 'w-full hero__background hero__light'}>
       <div className="hero__background-color w-full md:h-full">
         <div className="grid md:grid-cols-5 grid-cols-1 grid-flow-col h-full md-max:pt-16">
           <div className="col-span-3 hero__column md-max:hidden">

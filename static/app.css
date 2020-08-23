@@ -79,15 +79,15 @@ html {
   background-size: cover;
 }
 
+.hero__dark {
+  background-image: url('../static/images/beach-background.png');
+  transition: background-image 0.65s ease-in-out;
+}
+
 .hero__light {
   background-image: url('../static/images/beach-light.png');
   transition: background-image 0.65s ease-in-out;
 }
-
-.hero__background-image {
-  background-image: url('../static/images/beach-background.png');
-  transition: background-image 0.65s ease-in-out;
-};
 
 .hero__name {
   padding-left: 10em;
