@@ -11,15 +11,16 @@ import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 
 export default function () {
+  const windowGlobal = typeof window !== 'undefined' && window
+
   const [darkTheme, setDarkTheme] = React.useState(getDefaultTheme())
 
   React.useEffect(() => {
-    window.localStorage.setItem('dark', JSON.stringify(darkTheme))
+    windowGlobal.localStorage.setItem('dark', JSON.stringify(darkTheme))
   }, [darkTheme])
 
   function getDefaultTheme () {
-    const selectedTheme = JSON.parse(window.localStorage.getItem('dark'))
-    return selectedTheme || false
+    return JSON.parse(windowGlobal.localStorage.getItem('dark'))
   }
 
   return (
