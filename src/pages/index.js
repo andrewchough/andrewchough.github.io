@@ -14,11 +14,11 @@ export default function () {
   const [darkTheme, setDarkTheme] = React.useState(getDefaultTheme())
 
   React.useEffect(() => {
-    localStorage.setItem('dark', JSON.stringify(darkTheme))
+    window.localStorage.setItem('dark', JSON.stringify(darkTheme))
   }, [darkTheme])
 
   function getDefaultTheme () {
-    const selectedTheme = JSON.parse(localStorage.getItem('dark'))
+    const selectedTheme = JSON.parse(window.localStorage.getItem('dark'))
     return selectedTheme || false
   }
 
