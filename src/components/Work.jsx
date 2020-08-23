@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import GatsbyImage from 'gatsby-image'
@@ -30,7 +31,7 @@ const Work = () => {
   `)
 
   return (
-    <div className="block__section py-16 md-max:py-8 lg:px-12 ">
+    <div className="py-16 md-max:py-8 lg:px-12 ">
       <div className="flex items-center pl-3">
         <FaLaptop />
         <h6 className="ml-3 font-semibold">WORK</h6>

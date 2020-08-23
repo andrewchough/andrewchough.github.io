@@ -12,17 +12,28 @@ html {
   max-width: none;
 }
 
-.block__container {
+.block__container--light {
+  background-color: theme('colors.purple.50');
+  color: theme('colors.purple.650');
+  transition: background-color 0.50s ease;
+}
+
+.block__container--dark {
   background-color: theme('colors.purple.650');
+  color: theme('colors.purple.50');
+  transition: background-color 0.50s ease;
 }
 
 .block__header {
-  color: white;
   text-align: center;
 }
 
-.block__section {
-  background-color: theme('colors.purple.50');
+.block__title--right {
+  border-right: 3px solid;
+}
+
+.block__title--left {
+  border-left: 3px solid;
 }
 
 /* MEDIA QUERIES */
@@ -47,18 +58,35 @@ html {
 }
 
 /* NAVBAR */
-.navbar__resume-button:hover {
+
+.navbar__light {
+  background-color: #72b8d9;
+  transition: background-color 0.50s ease;
+}
+
+.navbar__dark {
   background-color: theme('colors.purple.900');
+  transition: background-color 0.50s ease;
 }
 
 /* HERO */
-.hero__background-image {
-  background-image: url('../static/images/beach-background.png');
+
+.hero__background {
   height: 90vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero__light {
+  background-image: url('../static/images/beach-light.png');
+  transition: background-image 0.50s ease-in-out;
+}
+
+.hero__background-image {
+  background-image: url('../static/images/beach-background.png');
+  transition: background-image 0.50s ease-in-out;
 };
 
 .hero__name {
@@ -134,7 +162,6 @@ html {
 
 .footer {
   opacity: 1.0;
-  color: #000000;
 }
 
 .footer__item {
@@ -154,14 +181,26 @@ html {
 
 .text-light-blue {
   color: #bcdcf7;
+  transition: color 0.30s ease;
+}
+
+.text-dark-blue { 
+  color: #006dca;
+  transition: color 0.30s ease;
 }
 
 .text-light-green {
   color: #cafff3;
+  transition: color 0.30s ease;
+}
+
+.text-dark-green {
+  color: #086751;
+  transition: color 0.30s ease;
 }
 
 .text-purple-600 {
-  color: theme('colors.purple.600');
+  color: theme('colors.purple.500');
 }
 
 .bg-purple-500 {
@@ -181,12 +220,8 @@ html {
 }
 
 /* PADDING */
-.bleh {
-  display: inline !important;
-}
-
-.round-15 {
-  border-radius: 15px;
+.round-25 {
+  border-radius: 25px;
 }
 
 .svg-container svg {

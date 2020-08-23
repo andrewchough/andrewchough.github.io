@@ -3,11 +3,16 @@ import Fade from 'react-reveal/Fade'
 
 export default function About () {
   return (
-    <div className="grid md:grid-cols-8 items-center block__container">
-      <div className="md:col-span-2 block__header md:py-10 py-4">
-        <h2 className="text-4xl font-semibold">ABOUT</h2>
+    <div className="grid md:grid-cols-8 items-center">
+      {/* Mobile title */}
+      <div className="md:col-span-2 block__header md:py-10 pb-0 pt-8 md:hidden">
+        <h2 className="text-4xl font-semibold block__title">ABOUT</h2>
       </div>
-      <div className="md:col-span-6 p-12 lg:px-24 lg:py-20 block__section">
+      {/* Desktop title */}
+      <div className="md:col-span-2 block__header md:py-10 pb-4 md-max:hidden">
+        <h2 className="text-4xl font-semibold block__title block__title--right">ABOUT</h2>
+      </div>
+      <div className="md:col-span-6 p-12 lg:px-24 lg:py-20">
         <Fade>
           <p className="font-light text-center sm-max:text-sm text-black wow"><b>Hi! </b>
             My name is Andrew Chough and I&apos;m a software engineer at Adobe, currently residing in New York City.

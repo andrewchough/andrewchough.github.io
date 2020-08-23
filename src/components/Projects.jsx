@@ -2,11 +2,12 @@ import React from 'react'
 
 export default function Projects () {
   return (
-    <div className="grid md:grid-cols-8 items-center block__container">
+    <div className="grid md:grid-cols-8 items-center">
+      {/* Mobile title */}
       <div className="md:col-span-2 block__header md:py-10 py-4 md:hidden">
         <h2 className="text-4xl font-semibold">PROJECTS</h2>
       </div>
-      <div className="md:col-span-2 block__section px-8 py-16 h-full">
+      <div className="md:col-span-2 px-8 py-16 h-full">
         <a href="https://www.rebuildblackbusiness.com/" target="_blank" rel="noopener noreferrer">
           <img className="projects__RBB projects__item"
             alt="Image of the Rebuild Black Businesses logo"
@@ -23,7 +24,7 @@ export default function Projects () {
           Figma, React (Gatsby), CSS (ChakraUI)
         </p>
       </div>
-      <div className="md:col-span-2 block__section px-8 py-16 md-max:pt-0 h-full">
+      <div className="md:col-span-2 px-8 py-16 md-max:pt-0 h-full">
         <a href="https://github.com/kunaljaydesai/CrimeApp" target="_blank" rel="noopener noreferrer">
           <img className="projects__hurt-alert projects__item"
             alt="Image of the Hurt Alert logo"
@@ -40,7 +41,7 @@ export default function Projects () {
           Sketch, HTML, CSS
         </p>
       </div>
-      <div className="md:col-span-2 block__section px-8 py-16 md-max:py-0 h-full">
+      <div className="md:col-span-2 px-8 py-16 md-max:py-0 h-full">
         <a href="https://github.com/anthonykim02/poke-locate" target="_blank" rel="noopener noreferrer">
           <img className="projects__poke-locate projects__item"
             alt="Image of the Poke Locate logo"
@@ -58,8 +59,9 @@ export default function Projects () {
           Photoshop, Sketch, Swift
         </p>
       </div>
+      {/* Desktop title */}
       <div className="md:col-span-2 block__header md:py-10 py-4 md-max:hidden">
-        <h2 className="text-4xl font-semibold">PROJECTS</h2>
+        <h2 className="text-4xl font-semibold block__title block__title--left">PROJECTS</h2>
       </div>
     </div>
   )

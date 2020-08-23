@@ -10,20 +10,23 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 
-export default () => (
-  <div className="container">
-    <Helmet>
-      <meta charSet="utf-8" />
-      <meta name="description" content="Andrew Chough's Portfolio, describing himself, his passions, and what he's worked on." />
-      <title>Andrew Chough&apos;s Portfolio</title>
-      <html lang="en" />
-    </Helmet>
-    <Navbar />
-    <Hero picLink="../../static/images/me.png" />
-    <About />
-    <Experience />
-    <Skills />
-    <Projects />
-    <Footer />
-  </div>
-)
+export default function () {
+  const [darkTheme, setDarkTheme] = React.useState(false)
+  return (
+    <div className={darkTheme ? 'container block__container--dark' : 'container block__container--light'}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Andrew Chough's Portfolio, describing himself, his passions, and what he's worked on." />
+        <title>Andrew Chough&apos;s Portfolio</title>
+        <html lang="en" />
+      </Helmet>
+      <Navbar onThemeChange={setDarkTheme} theme={darkTheme} />
+      <Hero picLink="../../static/images/me.png" theme={darkTheme} />
+      <About />
+      <Experience />
+      <Skills />
+      <Projects />
+      <Footer />
+    </div>
+  )
+}

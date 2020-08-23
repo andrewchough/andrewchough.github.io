@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 export default function Footer () {
   return (
-    <div className="grid grid-cols-1 items-center block__section border-black border-solid">
+    <div className="grid grid-cols-1 items-center border-black border-solid">
       <div className="mx-auto mt-8 mb-3 md:hidden">
         <a
           target="_blank" rel="noopener noreferrer"
