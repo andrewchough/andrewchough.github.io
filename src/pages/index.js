@@ -20,7 +20,10 @@ export default function () {
   }, [darkTheme])
 
   function getDefaultTheme () {
-    return JSON.parse(windowGlobal.localStorage.getItem('dark'))
+    if (windowGlobal.localStorage !== undefined) {
+      return JSON.parse(windowGlobal.localStorage.getItem('dark'))
+    }
+    return false;
   }
 
   return (
