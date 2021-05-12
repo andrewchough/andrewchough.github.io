@@ -7,29 +7,30 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Andrew Chough's Portfolio`,
-    description: `Welcome to the wild west of my mind.`,
-    author: `Andrew Chough`,
-    siteUrl: 'https://andrewchough.com',
+    title: 'Andrew Chough\'s Portfolio',
+    description: 'Welcome to the wild west of my mind.',
+    author: 'Andrew Chough',
+    siteUrl: 'https://andrewchough.com'
   },
   plugins: [
-    `gatsby-plugin-postcss`,
+    'gatsby-plugin-postcss',
     'gatsby-transformer-json',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: `data`,
+        name: 'data',
         path: `${__dirname}/src/data`
       }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `images`,
+        name: 'images',
         path: `${__dirname}/static/images`,
-      },
-    },
-  ],
+        icon: 'static/images/logo.png'
+      }
+    }
+  ]
 }
