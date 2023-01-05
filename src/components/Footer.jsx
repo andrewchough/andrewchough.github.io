@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 export default function Footer () {
   return (
@@ -12,7 +11,7 @@ export default function Footer () {
           RESUME
         </a>
       </div>
-      <div className="m-auto">
+      {/* <div className="m-auto">
         <a href="https://github.com/andrewchough" target="_blank" rel="noopener noreferrer">
           <FaGithub className="margin-auto inline my-6 mx-4 text-purple-600 footer__item" />
         </a>
@@ -22,7 +21,7 @@ export default function Footer () {
         <a href="mailto:andrewchough@gmail.com" target="_blank" rel="noopener noreferrer">
           <FaEnvelope className="margin-auto inline my-6 mx-4 text-purple-600 footer__item" />
         </a>
-      </div>
+      </div> */}
       <div className="mx-auto my-4">
         <p className="font-thin text-xs footer">COPYRIGHT © 2020 ANDREW CHOUGH</p>
       </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { FaSun, FaMoon } from 'react-icons/fa'
 
 Navbar.propTypes = {
   onThemeChange: PropTypes.object.isRequired,
@@ -25,10 +24,6 @@ export default function Navbar (props) {
         >
           RESUME
         </a>
-        <button className="p-2 mx-4" onClick={handleChange}>
-          { props.theme ? <FaSun /> : <FaMoon />}
-
-        </button>
       </div>
     </div>
   )
