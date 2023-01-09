@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-key */
-import React from "react"
+import React from "react";
 
 const Education = () => {
-  const data = {}
+  const data = {};
 
   return (
     <div className="md:py-16 md-max:pb-8 pr-12 h-full">
@@ -11,7 +11,7 @@ const Education = () => {
       </div>
       return (<div>hello</div>)
     </div>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;

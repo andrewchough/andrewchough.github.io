@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
 export default function Navbar(props) {
   function handleChange() {
-    props.onThemeChange(!props.theme)
+    props.onThemeChange(!props.theme);
   }
 
   return (
@@ -30,5 +30,5 @@ export default function Navbar(props) {
         </a>
       </div>
     </div>
-  )
+  );
 }

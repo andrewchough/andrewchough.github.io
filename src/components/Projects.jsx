@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default function Projects() {
   return (
@@ -89,5 +89,5 @@ export default function Projects() {
         </h2>
       </div>
     </div>
-  )
+  );
 }

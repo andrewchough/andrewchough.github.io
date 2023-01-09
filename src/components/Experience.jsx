@@ -1,6 +1,6 @@
-import React from "react"
-import Work from "../components/Work"
-import Education from "../components/Education"
+import React from "react";
+import Work from "../components/Work";
+import Education from "../components/Education";
 
 const Experience = () => {
   return (
@@ -22,7 +22,7 @@ const Experience = () => {
         </h2>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

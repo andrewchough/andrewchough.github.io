@@ -4,4 +4,4 @@ export default {
     name: "Andrew Chough"
   },
   description: "Welcome to the wild west of my mind."
-}
+};

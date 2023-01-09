@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 export default function Skills() {
   return (
@@ -45,5 +45,5 @@ export default function Skills() {
         </div>
       </div>
     </div>
-  )
+  );
 }

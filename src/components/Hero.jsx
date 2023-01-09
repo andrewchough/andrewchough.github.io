@@ -1,5 +1,5 @@
 /* eslint-disable no-trailing-spaces */
-import React from "react"
+import React from "react";
 
 export default function Hero(props) {
   return (
@@ -71,5 +71,5 @@ export default function Hero(props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
