@@ -8,15 +8,21 @@
     "build": "next build",
     "dev": "next",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --fix"
   },
   "dependencies": {
     "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
     "next": "^13.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
     "gh-pages": "^2.2.0",
     "prettier": "2.0.5"
   },

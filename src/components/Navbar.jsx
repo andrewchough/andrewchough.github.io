@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 
 Navbar.propTypes = {
   onThemeChange: PropTypes.object.isRequired,

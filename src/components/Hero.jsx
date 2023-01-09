@@ -1,10 +1,5 @@
 /* eslint-disable no-trailing-spaces */
 import React from "react"
-import PropTypes from "prop-types"
-
-Hero.propTypes = {
-  theme: PropTypes.bool.isRequired,
-}
 
 export default function Hero(props) {
   return (
