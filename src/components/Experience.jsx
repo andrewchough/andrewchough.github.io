@@ -1,6 +1,6 @@
-import React from 'react'
-import Work from '../components/Work'
-import Education from '../components/Education'
+import React from "react"
+import Work from "../components/Work"
+import Education from "../components/Education"
 
 const Experience = () => {
   return (
@@ -17,7 +17,9 @@ const Experience = () => {
       </div>
       {/* Desktop title */}
       <div className="md:col-span-2 block__header md:py-10 py-4 md-max:hidden">
-        <h2 className="text-4xl font-semibold block__title block__title--left">EXPERIENCE</h2>
+        <h2 className="text-4xl font-semibold block__title block__title--left">
+          EXPERIENCE
+        </h2>
       </div>
     </div>
   )

@@ -1,31 +1,47 @@
 /* eslint-disable quote-props */
 module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     // extend: {},
     fontFamily: {
-      display: ['Open Sans', 'Helvetica Neue', 'Calibri', 'Lucida Grande', 'sans-serif'],
-      body: ['Open Sans', 'Helvetica Neue', 'Calibri', 'Lucida Grande', 'sans-serif']
+      display: [
+        "Open Sans",
+        "Helvetica Neue",
+        "Calibri",
+        "Lucida Grande",
+        "sans-serif",
+      ],
+      body: [
+        "Open Sans",
+        "Helvetica Neue",
+        "Calibri",
+        "Lucida Grande",
+        "sans-serif",
+      ],
     },
     screens: {
-      'sm-max': { 'max': '639px' },
-      'md-max': { 'max': '767px' },
-      'lg-max': { 'max': '1144px' },
-      'xl-max': { 'max': '1279px' },
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1145px',
-      'xl': '1280px'
+      "sm-max": { max: "639px" },
+      "md-max": { max: "767px" },
+      "lg-max": { max: "1144px" },
+      "xl-max": { max: "1279px" },
+      sm: "640px",
+      md: "768px",
+      lg: "1145px",
+      xl: "1280px",
     },
     colors: {
-      transparent: 'transparent',
+      transparent: "transparent",
       purple: {
-        50: '#FEFAFF',
-        500: '#6C4080',
-        650: '#282027',
-        700: '#1a0f22',
-        900: '#25172c'
+        50: "#FEFAFF",
+        500: "#6C4080",
+        650: "#282027",
+        700: "#1a0f22",
+        900: "#25172c",
       },
-      cornsilk: '#fff8dc'
+      cornsilk: "#fff8dc",
       // blue: rgb(20, 115, 230),
       // gray: {
       //   100: rgb(255, 255, 255),
@@ -38,8 +54,8 @@ module.exports = {
       //   800: rgb(80, 80, 80),
       //   900: rgb(50, 50, 50),
       // },
-    }
+    },
   },
   variants: {},
-  plugins: []
+  plugins: [],
 }

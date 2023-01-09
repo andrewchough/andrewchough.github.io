@@ -1,17 +1,17 @@
 /* eslint-disable react/display-name */
-import React from 'react'
+import React from "react"
 
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import About from '../components/About'
-import Experience from '../components/Experience'
-import Skills from '../components/Skills'
-import Projects from '../components/Projects'
-import Footer from '../components/Footer'
+import Navbar from "../components/Navbar"
+import Hero from "../components/Hero"
+import About from "../components/About"
+import Experience from "../components/Experience"
+import Skills from "../components/Skills"
+import Projects from "../components/Projects"
+import Footer from "../components/Footer"
 
 export default function () {
   return (
-    <div className={'container block__container--light'}>
+    <div className={"container block__container--light"}>
       {/* <Helmet>
         <meta charSet="utf-8" />
         <meta name="description" content="Andrew Chough's Portfolio, describing himself, his passions, and what he's worked on." />
