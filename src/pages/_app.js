@@ -1,5 +1,6 @@
-/* eslint-disable react/display-name */
+
 import React from "react"
+// eslint-disable-next-line no-restricted-imports
 import "../../public/app.css"
 
 import Navbar from "../components/Navbar"
@@ -10,7 +11,7 @@ import Skills from "../components/Skills"
 import Projects from "../components/Projects"
 import Footer from "../components/Footer"
 
-export default function () {
+export default function App() {
   return (
     <div className={"container block__container--light"}>
       {/* <Helmet>

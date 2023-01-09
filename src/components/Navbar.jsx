@@ -1,10 +1,5 @@
 import React from "react"
 
-Navbar.propTypes = {
-  onThemeChange: PropTypes.object.isRequired,
-  theme: PropTypes.bool.isRequired,
-}
-
 export default function Navbar(props) {
   function handleChange() {
     props.onThemeChange(!props.theme)

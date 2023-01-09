@@ -1,7 +1,11 @@
+const OFF = "off";
+const ERROR = "error";
+
 module.exports = {
   env: {
     browser: true,
-    es6: true
+    es6: true,
+    node: true
   },
   extends: ["eslint:recommended", "plugin:react/recommended", "prettier"],
   globals: {
@@ -18,9 +22,8 @@ module.exports = {
   plugins: ["jsx-a11y", "react", "simple-import-sort", "prettier"],
   rules: {
     "comma-dangle": [2],
-    // "import/prefer-default-export": "off",
-
-    // "jsx-a11y/anchor-is-valid": "off",
+    "import/prefer-default-export": OFF,
+    "jsx-a11y/anchor-is-valid": OFF,
     "jsx-a11y/label-has-for": [
       "error",
       {
@@ -32,45 +35,45 @@ module.exports = {
       }
     ],
 
-    // "max-len": [ERROR, 200],
-    // "no-console": "off",
-    // "no-restricted-imports": [
-    //   ERROR,
-    //   {
-    //     patterns: ["../.*"],
-    //   },
-    // ],
-    // "no-shadow": "off",
-    // "no-underscore-dangle": "off",
-    // "no-unused-vars": "off",
-    // "no-use-before-define": "off",
-    // "object-shorthand": ERROR,
-    // "prefer-destructuring": [
-    //   ERROR,
-    //   {
-    //     VariableDeclarator: {
-    //       array: false,
-    //       object: true,
-    //     },
-    //     AssignmentExpression: {
-    //       array: true,
-    //       object: false,
-    //     },
-    //   },
-    //   {
-    //     enforceForRenamedProperties: false,
-    //   },
-    // ],
-    quotes: ["error", "double", { avoidEscape: true }]
-    // "react/jsx-filename-extension": [
-    //   ERROR,
-    //   {
-    //     extensions: [".js", ".ts", ".tsx"],
-    //   },
-    // ],
-    // "react/no-unescaped-entities": "off",
-    // "react/prop-types": "off",
-    // "react/react-in-jsx-scope": "off",
+    "max-len": [ERROR, 200],
+    "no-console": OFF,
+    "no-restricted-imports": [
+      ERROR,
+      {
+        patterns: ["../.*"]
+      }
+    ],
+    "no-shadow": OFF,
+    "no-underscore-dangle": OFF,
+    "no-unused-vars": OFF,
+    "no-use-before-define": OFF,
+    "object-shorthand": ERROR,
+    "prefer-destructuring": [
+      ERROR,
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true
+        },
+        AssignmentExpression: {
+          array: true,
+          object: false
+        }
+      },
+      {
+        enforceForRenamedProperties: false
+      }
+    ],
+    quotes: [ERROR, "double", { avoidEscape: true }],
+    "react/jsx-filename-extension": [
+      ERROR,
+      {
+        extensions: [".js", ".ts", ".tsx", ".jsx"]
+      }
+    ],
+    "react/no-unescaped-entities": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off"
   },
   settings: {
     react: {

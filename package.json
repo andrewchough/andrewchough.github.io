@@ -9,7 +9,7 @@
     "dev": "next",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "next start",
-    "lint": "eslint --fix"
+    "lint": "eslint --fix \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
     "eslint": "^8.31.0",
