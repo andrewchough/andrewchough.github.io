@@ -9,7 +9,6 @@ const Education = () => {
       <div className="flex items-center pl-3">
         <h6 className="ml-3 font-semibold">EDUCATION</h6>
       </div>
-      return (<div>hello</div>)
     </div>
   );
 };

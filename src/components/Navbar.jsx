@@ -7,9 +7,7 @@ export default function Navbar(props) {
 
   return (
     <div
-      className={`flex items-center justify-between flex-wrap p-5 ${
-        props.theme ? "navbar__dark" : "navbar__light"
-      }`}
+      className={"flex items-center justify-between flex-wrap p-5"}
     >
       <div className="flex items-center flex-shrink-0 navbar__name__container">
         <a

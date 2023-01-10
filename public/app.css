@@ -1,9 +1,5 @@
 html {
-  font-family: 'Open Sans', 'Helvetica Neue', 'Calibri', 'Lucida Grande', 'sans-serif' !important; 
-}
-
-.container {
-  max-width: none;
+  font-family: "Roboto", "Open Sans", 'Helvetica Neue', 'Calibri', 'sans-serif' !important; 
 }
 
 .block__container--light {
@@ -51,18 +47,6 @@ html {
   }
 }
 
-/* NAVBAR */
-
-.navbar__light {
-  background-color: #72b8d9;
-  transition: background-color 0.50s ease;
-}
-
-.navbar__dark {
-  background-color: theme('colors.purple.900');
-  transition: background-color 0.50s ease;
-}
-
 /* HERO */
 
 .hero__background {
@@ -74,12 +58,10 @@ html {
 }
 
 .hero__dark {
-  background-image: url('../public/images/beach-background.png');
   transition: background-image 0.65s ease-in-out;
 }
 
 .hero__light {
-  background-image: url('../public/images/beach-light.png');
   transition: background-image 0.65s ease-in-out;
 }
 
