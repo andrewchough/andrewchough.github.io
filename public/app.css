@@ -47,6 +47,20 @@ html {
   }
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.navbar__name {
+  color: white;
+}
+
+.navbar__name--resume {
+  margin-left: 32px;
+}
+
 /* HERO */
 
 .hero__background {
@@ -55,14 +69,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.hero__dark {
-  transition: background-image 0.65s ease-in-out;
-}
-
-.hero__light {
-  transition: background-image 0.65s ease-in-out;
 }
 
 .hero__name {
@@ -160,7 +166,7 @@ html {
 }
 
 .text-dark-blue { 
-  color: #006dca;
+  color: #48ABFF;
   transition: color 0.50s ease;
 }
 

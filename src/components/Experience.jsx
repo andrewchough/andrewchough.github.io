@@ -1,6 +1,7 @@
 import React from "react";
-import Work from "../components/Work";
+
 import Education from "../components/Education";
+import Work from "../components/Work";
 
 const Experience = () => {
   return (

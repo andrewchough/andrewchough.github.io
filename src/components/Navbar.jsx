@@ -7,25 +7,33 @@ export default function Navbar(props) {
 
   return (
     <div
-      className={"flex items-center justify-between flex-wrap p-5"}
+      className="navbar"
     >
-      <div className="flex items-center flex-shrink-0 navbar__name__container">
+      <div className="navbar__name__container">
         <a
           href="/"
-          className="hover:underline font-medium text-2xl tracking-tight lg:ml-5 navbar__name"
+          className="navbar__name"
         >
           ANDREW CHOUGH
         </a>
       </div>
-      <div className="float-right md-max:m-auto">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1ALlfH1E9uvWa0417cLdCJE5AOmXwkXpR/view?usp=sharing"
-          className="mx-4 md-max:hidden"
-        >
+      <div>
+        <div className="float-right md-max:m-auto">
+          <a
+            href="/about"
+            className="navbar__name"
+          >
+          ABOUT
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1ALlfH1E9uvWa0417cLdCJE5AOmXwkXpR/view?usp=sharing"
+            className="navbar__name navbar__name--resume"
+          >
           RESUME
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   );

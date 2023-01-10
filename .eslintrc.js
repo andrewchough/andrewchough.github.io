@@ -76,7 +76,28 @@ module.exports = {
     "react/no-unescaped-entities": "off",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "semi": [2]
+    "semi": [2],
+    "simple-import-sort/imports": [
+      ERROR,
+      {
+        groups: [
+          ["^react"],
+          // Scoped packages.
+          ["^@\\w"],
+          // Non-scoped packages.
+          ["^\\w"],
+          // Internal packages.
+          ["^~(/.*|$)"],
+          ["^\\u0000"],
+          // Parent (..) imports.
+          ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
+          // Other relative imports, such as same-import folders.
+          ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
+          // Style imports.
+          ["^.+\\.s?css$"]
+        ]
+      }
+    ]
   },
   settings: {
     react: {
