@@ -24,10 +24,13 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
     "gh-pages": "^2.2.0",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "typescript": "^4.9.4"
   },
   "repository": {
     "type": "git",
