@@ -6,24 +6,16 @@ export default function Navbar(props) {
   }
 
   return (
-    <div
-      className="navbar"
-    >
+    <div className="navbar">
       <div className="navbar__name__container">
-        <a
-          href="/"
-          className="navbar__name"
-        >
+        <a href="/" className="navbar__name">
           ANDREW CHOUGH
         </a>
       </div>
       <div>
         <div className="float-right md-max:m-auto">
-          <a
-            href="/about"
-            className="navbar__name"
-          >
-          ABOUT
+          <a href="/about" className="navbar__name">
+            ABOUT
           </a>
           <a
             target="_blank"
@@ -31,7 +23,7 @@ export default function Navbar(props) {
             href="https://drive.google.com/file/d/1ALlfH1E9uvWa0417cLdCJE5AOmXwkXpR/view?usp=sharing"
             className="navbar__name navbar__name--resume"
           >
-          RESUME
+            RESUME
           </a>
         </div>
       </div>

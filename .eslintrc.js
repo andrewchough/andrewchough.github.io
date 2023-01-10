@@ -23,7 +23,7 @@ module.exports = {
   rules: {
     "comma-dangle": [2],
     "import/prefer-default-export": OFF,
-    "indent": [ERROR, 2],
+    indent: [ERROR, 2],
     "jsx-a11y/anchor-is-valid": OFF,
     "jsx-a11y/label-has-for": [
       "error",
@@ -48,7 +48,7 @@ module.exports = {
     "no-underscore-dangle": OFF,
     "no-unused-vars": OFF,
     "no-use-before-define": OFF,
-    "object-curly-spacing": [ERROR, "always", { "objectsInObjects": false }],
+    "object-curly-spacing": [ERROR, "always", { objectsInObjects: false }],
     "object-shorthand": ERROR,
     "prefer-destructuring": [
       ERROR,
@@ -76,7 +76,7 @@ module.exports = {
     "react/no-unescaped-entities": "off",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "semi": [2],
+    semi: [2],
     "simple-import-sort/imports": [
       ERROR,
       {

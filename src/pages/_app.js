@@ -1,4 +1,3 @@
-
 import React from "react";
 
 import { MantineProvider } from "@mantine/core";
@@ -14,8 +13,14 @@ import "../../public/app.css";
 
 export default function App() {
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS 
-      theme={{ colorScheme: "dark", fontFamily: "Roboto, Open Sans, sans serif", fontSizes: { xl: 40 }}}
+    <MantineProvider
+      withGlobalStyles
+      withNormalizeCSS
+      theme={{
+        colorScheme: "dark",
+        fontFamily: "Roboto, Open Sans, sans serif",
+        fontSizes: { xl: 40 }
+      }}
     >
       {/* <Helmet>
         <meta charSet="utf-8" />
