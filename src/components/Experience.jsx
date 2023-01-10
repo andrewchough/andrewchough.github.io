@@ -1,28 +1,46 @@
 import React from "react";
 
-import Education from "../components/Education";
-import Work from "../components/Work";
+import { Divider, Flex, Grid, Text, Title } from "@mantine/core";
+
+import Footer from "./Footer";
 
 const Experience = () => {
   return (
-    <div className="grid md:grid-cols-8 items-center">
-      {/* Mobile title */}
-      <div className="md:col-span-2 block__header md:py-10 py-4 md:hidden">
-        <h2 className="text-4xl font-semibold">EXPERIENCE</h2>
-      </div>
-      <div className="md:col-span-3 h-full">
-        <Work />
-      </div>
-      <div className="md:col-span-3 h-full">
-        <Education />
-      </div>
-      {/* Desktop title */}
-      <div className="md:col-span-2 block__header md:py-10 py-4 md-max:hidden">
-        <h2 className="text-4xl font-semibold block__title block__title--left">
-          EXPERIENCE
-        </h2>
-      </div>
-    </div>
+    <Grid style={{ paddingLeft: 60, paddingRight: 60 }}>
+      <Grid.Col span={4} marginTop={200}>
+        <Flex justify="space-around">
+          <h2 className="block__header">EXPERIENCE</h2>
+          <Divider orientation="vertical" size="lg" />
+        </Flex>
+      </Grid.Col>
+      <Grid.Col span={7} offset={1}>
+        <Flex direction="column">
+          <Title order={3}>ADOBE</Title>
+          <Text color="dimmed" size="sm">(Jan '22 - Current)</Text>
+          <Text>Software Development Engineer</Text>
+          <Text>New York, NY</Text>
+        </Flex>
+        <Flex align="end" direction="column" my="lg">
+          <Title order={3}>ADOBE</Title>
+          <Text color="dimmed" size="sm">(Aug '19 - Jan '22)</Text>
+          <Text>Platform Software Engineer</Text>
+          <Text>New York, NY</Text>
+        </Flex>
+        <Flex direction="column" my="lg">
+          <Title order={3}>ADOBE</Title>
+          <Text color="dimmed" size="sm">(May '18 - Aug '18)</Text>
+          <Text>Web Development Intern</Text>
+          <Text>New York, NY</Text>
+        </Flex>
+        <Flex align="end" direction="column" my="lg">
+          <Title order={3}>BOSTON COLLEGE</Title>
+          <Text color="dimmed" size="sm">(Aug '15 - May '19)</Text>
+          <Text>Bachelor of Science, Computer Science</Text>
+          <Text>Chestnut Hill, MA</Text>
+        </Flex>
+      </Grid.Col>
+    </Grid>
+
   );
 };
 

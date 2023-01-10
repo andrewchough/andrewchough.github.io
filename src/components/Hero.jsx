@@ -1,13 +1,16 @@
 import React from "react";
 
-import { ActionIcon, Button, Divider, Flex, Grid, Text } from "@mantine/core";
+import { ActionIcon, Divider, Flex, Grid, Text } from "@mantine/core";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons";
 
-export default function Hero(props) {
+import Image from "next/image";
+import ProfilePicture from "public/images/me.jpeg";
+
+export default function Hero() {
   return (
     <div>
-      <Grid gutter={5} style={{ padding: 40, marginTop: 60 }}>
-        <Grid.Col span={6}>
+      <Grid gutter={6} style={{ padding: 40, marginTop: 60 }}>
+        <Grid.Col span={7}>
           <Text size="xl">
             Andrew is a <span className="text-dark-blue">UX designer</span>
             {" and "}
@@ -26,8 +29,13 @@ export default function Hero(props) {
             </ActionIcon>
           </Flex>
         </Grid.Col>
-        <Grid.Col span={6}>
-          <p>picture placeholder</p>
+        <Grid.Col span={4} offset={1}>
+          <Image
+            src={ProfilePicture}
+            alt="Picture of Andrew Chough"
+            width={504}
+            height={672}
+          />
         </Grid.Col>
       </Grid>
     </div>

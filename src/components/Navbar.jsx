@@ -1,5 +1,7 @@
 import React from "react";
 
+import Link from "next/link";
+
 export default function Navbar(props) {
   function handleChange() {
     props.onThemeChange(!props.theme);
@@ -8,19 +10,19 @@ export default function Navbar(props) {
   return (
     <div className="navbar">
       <div className="navbar__name__container">
-        <a href="/" className="navbar__name">
+        <Link href="/" className="navbar__name">
           ANDREW CHOUGH
-        </a>
+        </Link>
       </div>
       <div>
         <div className="float-right md-max:m-auto">
-          <a href="/about" className="navbar__name">
+          <Link href="/about" className="navbar__name">
             ABOUT
-          </a>
+          </Link>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1ALlfH1E9uvWa0417cLdCJE5AOmXwkXpR/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DwVegUHHQVb9ZVK7dEi77HVOoqoy6imL/view?usp=share_link"
             className="navbar__name navbar__name--resume"
           >
             RESUME
