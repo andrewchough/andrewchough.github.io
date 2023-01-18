@@ -2,8 +2,6 @@ import React from "react";
 
 import { MantineProvider } from "@mantine/core";
 
-import Homepage from "./index";
-
 // eslint-disable-next-line no-restricted-imports, sort-imports
 import "../../public/app.css";
 
@@ -18,7 +16,7 @@ export default function App({ Component, pageProps }) {
         fontSizes: { xl: 40 }
       }}
     >
-      <Component {...pageProps}/>
+      <Component {...pageProps} />
     </MantineProvider>
   );
 }

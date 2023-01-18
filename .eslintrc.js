@@ -46,7 +46,7 @@ module.exports = {
     ],
     "no-shadow": OFF,
     "no-underscore-dangle": OFF,
-    "no-unused-vars": OFF,
+    "no-unused-vars": ERROR,
     "no-use-before-define": OFF,
     "object-curly-spacing": [ERROR, "always", { objectsInObjects: false }],
     "object-shorthand": ERROR,

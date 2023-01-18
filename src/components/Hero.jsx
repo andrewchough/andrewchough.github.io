@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ActionIcon, Divider, Flex, Grid, Text } from "@mantine/core";
+import { Button, Divider, Flex, Grid, Text } from "@mantine/core";
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons";
 
 import Image from "next/image";
@@ -21,12 +21,46 @@ export default function Hero() {
           <Divider my={40} size="sm" />
           <Text size="lg">Currently stationed @ Adobe in 🗽</Text>
           <Flex mt={24}>
-            <ActionIcon size={40}>
-              <IconBrandGithub size={32} />
-            </ActionIcon>
-            <ActionIcon size={40}>
-              <IconBrandLinkedin size={32} />
-            </ActionIcon>
+            <Button
+              component="a"
+              size="sm"
+              leftIcon={<IconBrandGithub size={32} />}
+              variant="subtle"
+              color="white"
+              href="https://github.com/andrewchough"
+              target="_blank"
+              rel="noreferrer"
+              styles={() => ({
+                root: {
+                  color: "white",
+                  paddingRight: 0,
+                  "&:hover": {
+                    backgroundColor: "rgba(255, 255, 255, 0.2)"
+                  },
+                  marginRight: 4
+                }
+              })}
+            />
+            <Button
+              component="a"
+              size="sm"
+              leftIcon={<IconBrandLinkedin size={36} />}
+              variant="subtle"
+              color="white"
+              href="https://www.linkedin.com/in/andrewchough"
+              target="_blank"
+              rel="noreferrer"
+              styles={() => ({
+                root: {
+                  color: "white",
+                  paddingRight: 0,
+                  "&:hover": {
+                    backgroundColor: "rgba(255, 255, 255, 0.2)"
+                  },
+                  marginRight: 4
+                }
+              })}
+            />
           </Flex>
         </Grid.Col>
         <Grid.Col span={4} offset={1}>

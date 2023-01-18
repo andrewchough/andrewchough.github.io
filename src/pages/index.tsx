@@ -10,7 +10,10 @@ export default function Homepage() {
       <Head>
         <title>Andrew Chough&apos;s Portfolio</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Andrew Chough's Portfolio, describing himself, his passions, and what he's worked on." />
+        <meta
+          name="description"
+          content="Andrew Chough's Portfolio, describing himself, his passions, and what he's worked on."
+        />
         <link rel="icon" href="/public/images/logo.ico"></link>
       </Head>
       <Navbar />

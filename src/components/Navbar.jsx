@@ -2,11 +2,7 @@ import React from "react";
 
 import Link from "next/link";
 
-export default function Navbar(props) {
-  function handleChange() {
-    props.onThemeChange(!props.theme);
-  }
-
+export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__name__container">
