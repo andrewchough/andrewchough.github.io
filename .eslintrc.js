@@ -36,14 +36,8 @@ module.exports = {
       }
     ],
 
-    "max-len": [ERROR, 200],
+    "max-len": [ERROR, 150],
     "no-console": OFF,
-    "no-restricted-imports": [
-      ERROR,
-      {
-        patterns: ["../.*"]
-      }
-    ],
     "no-shadow": OFF,
     "no-underscore-dangle": OFF,
     "no-unused-vars": ERROR,

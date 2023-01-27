@@ -19,8 +19,10 @@ export default function Hero() {
             meaningful change in people's lives.
           </Text>
           <Divider my={40} size="sm" />
-          <Text size="lg">Currently stationed @ Adobe in 🗽</Text>
-          <Flex mt={24}>
+          <Text size="lg">
+            Currently stationed @ <b>Adobe</b> in 🗽
+          </Text>
+          <Flex mt={16}>
             <Button
               component="a"
               size="sm"
@@ -37,7 +39,8 @@ export default function Hero() {
                   "&:hover": {
                     backgroundColor: "rgba(255, 255, 255, 0.2)"
                   },
-                  marginRight: 4
+                  marginRight: 4,
+                  height: 48
                 }
               })}
             />
@@ -57,7 +60,8 @@ export default function Hero() {
                   "&:hover": {
                     backgroundColor: "rgba(255, 255, 255, 0.2)"
                   },
-                  marginRight: 4
+                  marginRight: 4,
+                  height: 48
                 }
               })}
             />
@@ -69,6 +73,7 @@ export default function Hero() {
             alt="Picture of Andrew Chough"
             width={504}
             height={672}
+            priority
           />
         </Grid.Col>
       </Grid>
