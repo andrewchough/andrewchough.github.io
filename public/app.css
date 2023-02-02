@@ -6,6 +6,29 @@ p {
   line-height: 175%;
 }
 
+@media screen and (max-width: 756px) {
+  .ethos__rocket-image {
+    height: 350px !important;
+  }
+
+  .case-study__page-title {
+    margin-left: 12px !important;
+  }
+
+  .case-study__blurb-box {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+
+  .case-study__blurb-subtext {
+    margin: 1em 0 !important;
+  }
+
+  .case-study__blurb-title--phone-screen {
+    font-size: 24px !important;
+  }
+}
+
 .block__header {
   text-align: center;
 }
@@ -135,4 +158,19 @@ p {
 
 .svg-container svg {
   margin: auto;
+}
+
+.hero__image-container {
+  width: 100%;
+}
+
+.hero__image-container > div {
+  position: unset !important;
+}
+
+.hero__image {
+  object-fit: contain;
+  width: 100% !important;
+  position: relative !important;
+  height: unset !important;
 }

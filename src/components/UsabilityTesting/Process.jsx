@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Grid } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 
 import Image from "next/image";
 import Analysis from "public/images/analysis.png";
@@ -10,6 +11,8 @@ import Prototype from "public/images/prototype.png";
 import UsabilityTestingPicture from "public/images/usability-testing.jpeg";
 
 export default function Process() {
+  const mediumScreen = useMediaQuery("(max-width: 756px)");
+  const largeScreen = useMediaQuery("(max-width: 900px)");
   return (
     <div>
       <Image
@@ -18,13 +21,13 @@ export default function Process() {
         quality={100}
         style={{ width: "100%", height: "360px", objectFit: "cover" }}
       />
-      <Grid>
-        <Grid.Col span={8} offset={2} mt={48}>
+      <Grid mx={largeScreen ? 24 : 0}>
+        <Grid.Col lg={8} offsetLg={2} mt={48}>
           <h4 className="case-study__section-title">Process</h4>
         </Grid.Col>
       </Grid>
-      <Grid>
-        <Grid.Col span={5} offset={2} pr={24}>
+      <Grid mx={largeScreen ? 24 : 0}>
+        <Grid.Col md={8} lg={5} offsetLg={2} pr={mediumScreen ? 0 : 24}>
           <h5 className="case-study__section-subtitle">
             Moving from impromptu to agile
           </h5>
@@ -46,19 +49,19 @@ export default function Process() {
             complaints to arise in the first place.
           </p>
         </Grid.Col>
-        <Grid.Col span={3}>
+        <Grid.Col md={4}>
           <Image
             src={Meeting}
             alt="Picture of several colleagues discussing around a table."
             style={{
-              width: "100%",
-              height: "430px",
+              width: mediumScreen ? "0%" : "100%",
+              height: mediumScreen ? 0 : "430px",
               objectFit: "cover",
               marginBottom: "60px"
             }}
           />
         </Grid.Col>
-        <Grid.Col span={5} offset={2} pr={24}>
+        <Grid.Col md={8} lg={5} offsetLg={2} pr={mediumScreen ? 0 : 24}>
           <h5 className="case-study__section-subtitle">
             Igniting the conversations
           </h5>
@@ -75,19 +78,19 @@ export default function Process() {
             type of feedback we would want to hear from the users.
           </p>
         </Grid.Col>
-        <Grid.Col span={3}>
+        <Grid.Col md={4}>
           <Image
             src={Brainstorming}
             alt="Picture of woman presenting information on a whiteboard between two ideations of an app."
             style={{
-              width: "100%",
-              height: "300px",
+              width: mediumScreen ? "0%" : "100%",
+              height: mediumScreen ? 0 : "300px",
               objectFit: "cover",
               marginBottom: "60px"
             }}
           />
         </Grid.Col>
-        <Grid.Col span={5} offset={2} pr={24}>
+        <Grid.Col md={8} lg={5} offsetLg={2} pr={mediumScreen ? 0 : 24}>
           <h5 className="case-study__section-subtitle">
             Executing user sessions
           </h5>
@@ -108,19 +111,19 @@ export default function Process() {
             was able to be properly translated into a feature improvement.
           </p>
         </Grid.Col>
-        <Grid.Col span={3}>
+        <Grid.Col md={4}>
           <Image
             src={Prototype}
             alt="Picture of a person pointing at a phone."
             style={{
-              width: "100%",
-              height: "350px",
+              width: mediumScreen ? "0%" : "100%",
+              height: mediumScreen ? 0 : "350px",
               objectFit: "cover",
               marginBottom: "60px"
             }}
           />
         </Grid.Col>
-        <Grid.Col span={5} offset={2} pr={24}>
+        <Grid.Col md={8} lg={5} offsetLg={2} pr={mediumScreen ? 0 : 24}>
           <h5 className="case-study__section-subtitle">
             Generalizing the process
           </h5>
@@ -138,13 +141,13 @@ export default function Process() {
             channels where feedback might be placed.
           </p>
         </Grid.Col>
-        <Grid.Col span={3}>
+        <Grid.Col md={4}>
           <Image
             src={Analysis}
             alt="Picture of colleagues putting up and analyzing post-it notes on a clear glass wall."
             style={{
-              width: "100%",
-              height: "300px",
+              width: mediumScreen ? "0%" : "100%",
+              height: mediumScreen ? 0 : "300px",
               objectFit: "cover",
               marginBottom: "60px"
             }}

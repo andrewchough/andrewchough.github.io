@@ -1,12 +1,15 @@
 import React from "react";
 
 import { Divider, Flex, Grid } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 
 export default function Background() {
+  const mediumScreen = useMediaQuery("(max-width: 756px)");
+  const largeScreen = useMediaQuery("(max-width: 900px)");
   return (
     <>
-      <Grid>
-        <Grid.Col span={8} offset={2}>
+      <Grid mx={largeScreen ? 24 : 0}>
+        <Grid.Col lg={8} offsetLg={2}>
           <h4 className="case-study__section-title">Background</h4>
           <p className="case-study__text">
             When I joined Adobe mid-2019, usability testing was nearly
@@ -24,8 +27,8 @@ export default function Background() {
           </p>
         </Grid.Col>
       </Grid>
-      <Grid>
-        <Grid.Col span={8} offset={2}>
+      <Grid mx={largeScreen ? 24 : 0}>
+        <Grid.Col lg={8} offsetLg={2}>
           <h4 className="case-study__section-title">Problem</h4>
           <p className="case-study__text--enlarged">
             For many developers within Adobe, the features that would be
@@ -44,9 +47,17 @@ export default function Background() {
           </p>
         </Grid.Col>
       </Grid>
-      <Flex justify="center" my={48} px={60}>
+      <Flex justify="center" my={48} mx={largeScreen ? 24 : 60}>
         <div className="case-study__blurb-box">
-          <h2 className="case-study__blurb-title">Design Challenge</h2>
+          <h2
+            className={
+              largeScreen
+                ? "case-study__blurb-title--phone-screen case-study__blurb-title"
+                : "case-study__blurb-title"
+            }
+          >
+            Design Challenge
+          </h2>
           <h4 className="case-study__blurb-subtext">
             How might we integrate a viable and scalable usability testing
             framework within our products to ensure that we’re receiving the
@@ -54,7 +65,12 @@ export default function Background() {
           </h4>
         </div>
       </Flex>
-      <Flex className="case-study__callout-box" my={48} px={200} py={60}>
+      <Flex
+        className="case-study__callout-box"
+        my={48}
+        px={mediumScreen ? 20 : 200}
+        py={60}
+      >
         <Divider orientation="vertical" size="xl" color="blue" mr={48} />
         <h4 className="case-study__callout-box__text">
           “Better user experience. Please hire a designer to help with the crap

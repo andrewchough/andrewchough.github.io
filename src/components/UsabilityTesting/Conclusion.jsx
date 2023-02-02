@@ -1,12 +1,14 @@
 import React from "react";
 
 import { Divider, Flex, Grid } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 
 export default function Conclusion() {
+  const mediumScreen = useMediaQuery("(max-width: 756px)");
   return (
     <>
-      <Grid>
-        <Grid.Col span={8} offset={2} mb={48}>
+      <Grid mx={mediumScreen ? 24 : 0}>
+        <Grid.Col lg={8} offsetLg={2} mb={48}>
           <h4 className="case-study__section-title">Impact</h4>
           <p className="case-study__text--enlarged">
             The impact of the new changes were felt from the get go. The
@@ -24,7 +26,12 @@ export default function Conclusion() {
           </p>
         </Grid.Col>
       </Grid>
-      <Flex className="case-study__callout-box" my={48} px={200} py={60}>
+      <Flex
+        className="case-study__callout-box"
+        my={48}
+        px={mediumScreen ? 20 : 200}
+        py={60}
+      >
         <Divider orientation="vertical" size="xl" color="blue" mr={48} />
         <h4 className="case-study__callout-box__text">
           “For the developers that helped developed the new onboarding feature,
@@ -35,8 +42,8 @@ export default function Conclusion() {
           </span>
         </h4>
       </Flex>
-      <Grid>
-        <Grid.Col span={8} offset={2} mb={48}>
+      <Grid mx={mediumScreen ? 24 : 0}>
+        <Grid.Col lg={8} offsetLg={2} mb={48}>
           <h4 className="case-study__section-title">Reflections</h4>
           <p className="case-study__text--enlarged">Constraints</p>
           <p className="case-study__text">
@@ -55,7 +62,7 @@ export default function Conclusion() {
             the scope of the sessions to a smaller section of the feature.
           </p>
         </Grid.Col>
-        <Grid.Col span={8} offset={2} mb={48}>
+        <Grid.Col lg={8} offsetLg={2} mb={48}>
           <h4 className="case-study__section-title">Conclusion</h4>
           <p className="case-study__text">
             It’s safe to say that the usability testing sessions provided much

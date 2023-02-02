@@ -1,17 +1,19 @@
 import React from "react";
 
 import { Divider, Flex, Grid, Text, Title } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
 
 const Experience = () => {
+  const largeScreen = useMediaQuery("(max-width: 900px)");
   return (
     <Grid style={{ paddingLeft: 60, paddingRight: 60 }}>
-      <Grid.Col span={4} marginTop={200}>
-        <Flex justify="space-around">
+      <Grid.Col xs={12} lg={4}>
+        <Flex justify={largeScreen ? "center" : "space-around"}>
           <h2 className="block__header">EXPERIENCE</h2>
-          <Divider orientation="vertical" size="lg" />
+          <Divider orientation={largeScreen ? "none" : "vertical"} size="lg" />
         </Flex>
       </Grid.Col>
-      <Grid.Col span={7} offset={1}>
+      <Grid.Col xs={12} lg={7} offsetLg={1}>
         <Flex direction="column">
           <Title order={3}>ADOBE</Title>
           <Text color="dimmed" size="sm">

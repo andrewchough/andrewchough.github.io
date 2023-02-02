@@ -15,21 +15,15 @@ export default function CurrentlyWorking() {
         </div>
       </Flex>
       <Grid>
-        <Grid.Col span={5} offset={1}>
+        <Grid.Col sm={12} lg={5} offsetLg={1}>
           <Card
             component="a"
             href="/studies/EthosUsabilityTesting"
             p="lg"
             m={32}
             className="ethos__rocket-image"
-            height={1000}
           >
-            <Image
-              src={RocketLogo}
-              alt="Rocket logo"
-              height={256}
-              width={256}
-            />
+            <Image src={RocketLogo} alt="Rocket logo" width={256} />
           </Card>
         </Grid.Col>
       </Grid>
