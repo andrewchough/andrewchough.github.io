@@ -18,7 +18,7 @@ export default function Navbar() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1DwVegUHHQVb9ZVK7dEi77HVOoqoy6imL/view?usp=share_link"
+            href="https://drive.google.com/file/d/1ZcJuq7wTTDQstfQk0y2t4Wp7aveP6o3K/view?usp=sharing"
             className="navbar__name navbar__name--resume"
           >
             RESUME

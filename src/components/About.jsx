@@ -36,7 +36,7 @@ export default function About() {
             gain more experience learning wherever I can.
           </p>
           <p className="font-light text-center sm-max:text-sm pb-8 text-black">
-            I was born and raised in the Bay Area for most of my life, went to
+            I was born and raised in the Bay Area, went to
             college in the Boston area, and am now residing in the Big Apple.
             Over the years, I&apos;ve become infatuated with music - ranging
             from hip-hop to jazz. I&apos;ve been playing the saxophone for more
@@ -45,12 +45,12 @@ export default function About() {
             BC.
           </p>
           <p className="font-light text-center sm-max:text-sm text-black">
-            My hobbies outside of the office include powerlifting, basketball,
-            sudoku, finding the best cold brew in the city, and AAPI advocacy
-            and intersectional movements. At Adobe, I am involved with the
-            Diversity and Inclusion council and am also a lead of the Asian
-            Employee Network in the New York sites. A big passion of mine is
-            helping the tech field more inclusive and would love to get more
+            My hobbies outside of the office include&nbsp;
+            <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/joonofthejungle">powerlifting</a>, 
+            attempting to solve (and failing) the NYT crossword, finding the best cold brew in the city, 
+            and AAPI advocacy/intersectional movements. At Adobe, I am involved with the Diversity and Inclusion council 
+            and am also a lead of the Asian and Pacific Islander @ Adobe network in the New York sites. 
+            A big passion of mine is helping the tech field more inclusive and would love to get more 
             involved in any opportunities that support that cause.
           </p>
         </div>

@@ -28,7 +28,7 @@ export default function Hero() {
               {" and "}
               <span className="text-dark-green">frontend engineer</span> who
               values inclusivity and empathy in creating products that generate
-              meaningful change in people's lives.
+              meaningful change in people's lives and is enthusiastic about opportunities to influence an end-to-end experience.
             </Text>
             <Divider my={40} size="sm" />
             <Text size="lg">
