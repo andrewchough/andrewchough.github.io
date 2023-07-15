@@ -12,7 +12,7 @@
     "lint": "eslint --fix \"**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
-    "@emotion/react": "^11.10.5",
+    "@emotion/react": "^11.11.1",
     "@mantine/core": "^5.10.0",
     "@mantine/hooks": "^5.10.0",
     "@tabler/core": "^1.0.0-beta16",
@@ -22,6 +22,7 @@
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "next": "^13.1.1",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.2.5",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
