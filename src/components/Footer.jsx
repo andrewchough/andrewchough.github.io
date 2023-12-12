@@ -73,7 +73,7 @@ export default function Footer() {
         />
       </Flex>
       <div>
-        <p className="footer">COPYRIGHT © 2023 ANDREW CHOUGH</p>
+        <p className="footer">COPYRIGHT © 2024 ANDREW CHOUGH</p>
       </div>
     </>
   );

@@ -14,15 +14,23 @@ const Experience = () => {
         </Flex>
       </Grid.Col>
       <Grid.Col xs={12} lg={7} offsetLg={1}>
-        <Flex direction="column">
+        <Flex direction="column" my="lg">
+          <Title order={3}>CHARIOT</Title>
+          <Text color="dimmed" size="sm">
+            (Nov '23 - Present)
+          </Text>
+          <Text>Senior Frontend Engineer</Text>
+          <Text>New York, NY</Text>
+        </Flex>
+        <Flex align="end" direction="column">
           <Title order={3}>ADOBE</Title>
           <Text color="dimmed" size="sm">
-            (Jan '22 - Current)
+            (Jan '22 - Nov '23)
           </Text>
           <Text>Software Development Engineer</Text>
           <Text>New York, NY</Text>
         </Flex>
-        <Flex align="end" direction="column" my="lg">
+        <Flex direction="column" my="lg">
           <Title order={3}>ADOBE</Title>
           <Text color="dimmed" size="sm">
             (Aug '19 - Jan '22)
@@ -30,7 +38,7 @@ const Experience = () => {
           <Text>Platform Software Engineer</Text>
           <Text>New York, NY</Text>
         </Flex>
-        <Flex direction="column" my="lg">
+        <Flex align="end" direction="column" my="lg">
           <Title order={3}>ADOBE</Title>
           <Text color="dimmed" size="sm">
             (May '18 - Aug '18)
@@ -38,7 +46,7 @@ const Experience = () => {
           <Text>Web Development Intern</Text>
           <Text>New York, NY</Text>
         </Flex>
-        <Flex align="end" direction="column" my="lg">
+        <Flex direction="column" my="lg">
           <Title order={3}>BOSTON COLLEGE</Title>
           <Text color="dimmed" size="sm">
             (Aug '15 - May '19)
