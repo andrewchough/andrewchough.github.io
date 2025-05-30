@@ -14,15 +14,16 @@ export default function Background() {
           <p className="case-study__text">
             When I joined Adobe mid-2019, usability testing was nearly
             non-existent within the team and with any of our products. Since the
-            work that the team focused on was internal, our process with pushing
-            out updates to our products didn’t go through any usability testing
-            and instead relied solely on tickets that were created within JIRA
-            to account for any bugs as well as Slack channels to account for any
+            work that the team focused on was internal, our process for pushing
+            out updates and features didn’t go through any usability testing and
+            instead relied solely on tickets that were created within JIRA to
+            account for any bugs as well as Slack channels to account for any
             user experience frustrations or suggestions. Since the tooling that
-            the team was creating was relatively within its infancy for a few
-            years, including the time around when I joined, and the priority was
-            on scaling the project as fast as possible, there wasn’t a heavy
-            priority of making sure that we ran through usability testing when
+            the team was creating was still in its infancy for a few years,
+            including the time around when I joined, and the priority was on
+            scaling the project as fast as possible, there wasn’t a strong
+            emphasis on conducting usability testing when developing new
+            features or improving old workflows. usability testing when
             developing new features or improving old workflows.
           </p>
         </Grid.Col>
@@ -31,19 +32,19 @@ export default function Background() {
         <Grid.Col lg={8} offsetLg={2}>
           <h4 className="case-study__section-title">Problem</h4>
           <p className="case-study__text--enlarged">
-            For many developers within Adobe, the features that would be
-            released wouldn’t necessarily resolve frustrations about the current
-            user experiences - in rare cases, they would actually create{" "}
-            <u>more frustrations</u> within the interfaces.
+            For many developers within Adobe, the features being released didn’t
+            necessarily address frustrations about the current user experiences
+            - in rare cases, they would actually create <u>more frustrations</u>{" "}
+            within the interfaces.
           </p>
           <p className="case-study__text">
             And while the importance of scaling the tooling to an enterprise
             level could not be undermined, there was a lack of priority to make
-            sure that we were testing with our users as to whether or not the
-            workflows determined by these new features were the right ones. A
-            lot of assumptions were made from the developers’ perspectives and
-            with a lack of usability testing, sometimes these assumptions were
-            extremely off base.
+            sure that we were testing with our users whether the workflows
+            introduced by these new features were appropriate. A lot of
+            assumptions were made from the developers’ perspectives and with a
+            lack of usability testing, these assumptions were often far from
+            accurate.
           </p>
         </Grid.Col>
       </Grid>

@@ -28,7 +28,7 @@ export default function Hero() {
               <Text size="xl">
                 Andrew is a <span className="text-dark-blue">UX designer</span>
                 {" and "}
-                <span className="text-dark-green">frontend engineer</span> who
+                <span className="text-dark-green">design engineer</span> who
                 values inclusivity and empathy in creating products that
                 generate meaningful change in people's lives and is enthusiastic
                 about opportunities to influence an end-to-end experience.

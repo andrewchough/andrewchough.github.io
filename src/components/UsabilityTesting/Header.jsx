@@ -21,7 +21,7 @@ export default function Header() {
           <Title order={4} mb={8}>
             Role
           </Title>
-          Frontend Engineer & UI/UX Designer
+          Design Engineer & UI/UX Designer
         </Grid.Col>
         <Grid.Col lg={2} offsetLg={1} my={largeScreen ? 12 : 0}>
           <Title order={4} mb={8}>

@@ -19,7 +19,7 @@ const Experience = () => {
           <Text color="dimmed" size="sm">
             (Nov '23 - Present)
           </Text>
-          <Text>Senior Frontend Engineer</Text>
+          <Text>Founding Frontend Engineer</Text>
           <Text>New York, NY</Text>
         </Flex>
         <Flex align="end" direction="column">

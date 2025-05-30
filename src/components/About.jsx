@@ -17,8 +17,8 @@ export default function About() {
         <div className="md:col-span-6 p-12 lg:px-24 lg:py-20">
           <p className="font-light text-center sm-max:text-sm text-black wow">
             <b>Hi! </b>
-            My name is Andrew Chough and I&apos;m a senior frontend engineer at
-            Chariot, currently residing in New York City.
+            My name is Andrew Chough and I&apos;m a founding frontend engineer
+            at Chariot, currently residing in New York City.
           </p>
           <hr className="about__line" />
           <p className="font-light text-center sm-max:text-sm text-black">
