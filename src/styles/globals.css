@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Custom styles */
+@layer components {
+  .text-dark-blue {
+    @apply text-[#1a365d];
+  }
+
+  .text-dark-green {
+    @apply text-[#2f5233];
+  }
+}

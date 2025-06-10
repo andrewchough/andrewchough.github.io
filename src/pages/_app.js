@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 
 import { MantineProvider } from "@mantine/core";
 
-// eslint-disable-next-line no-restricted-imports, sort-imports
+import "../styles/globals.css";
 import "../../public/app.css";
 
 export default function App({ Component, pageProps }) {
@@ -19,8 +20,8 @@ export default function App({ Component, pageProps }) {
           sm: 600,
           md: 768,
           lg: 992,
-          xl: 1200
-        }
+          xl: 1200,
+        },
       }}
     >
       <Component {...pageProps} />

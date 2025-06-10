@@ -1,3 +1,5 @@
+import React from "react";
+
 import Head from "next/head";
 
 import CurrentlyWorking from "../components/CurrentlyWorking";
@@ -15,7 +17,7 @@ export default function Homepage() {
           name="description"
           content="Andrew Chough's Portfolio, describing himself, his passions, and what he's worked on."
         />
-        <link rel="icon" href="/public/images/logo.ico"></link>
+        <link rel="icon" href="/images/logo.ico" />
       </Head>
       <Navbar />
       <Hero />

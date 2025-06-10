@@ -14,7 +14,7 @@ export default function EthosUsabilityTesting() {
     <>
       <Head>
         <title>Introducing Usability Testing to Ethos | Andrew Chough</title>
-        <link rel="icon" href="/public/images/logo.ico"></link>
+        <link rel="icon" href="/images/logo.ico"></link>
       </Head>
       <Navbar />
       <Header />
