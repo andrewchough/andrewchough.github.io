@@ -34,7 +34,7 @@ export default function Header() {
       >
         <div className="col-span-12 lg:col-span-2">
           <h4 className="text-xl font-semibold mb-2">Role</h4>
-          Design Engineer & UI/UX Designer
+          Frontend Engineer & UI/UX Designer
         </div>
         <div
           className={`col-span-12 lg:col-span-2 lg:col-start-4 ${

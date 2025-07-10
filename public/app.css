@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 html {
-  font-family: "Roboto", "Open Sans", 'Helvetica Neue', 'Calibri', 'sans-serif' !important; 
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", "Calibri", "sans-serif" !important;
 }
 
 @media screen and (max-width: 756px) {
-  .ethos__rocket-image {
+  .ethos__rocket-image,
+  .chariot__image {
     height: 350px !important;
   }
 
@@ -45,7 +46,8 @@ html {
   margin-left: 32px;
 }
 
-.ethos__rocket-image {
+.ethos__rocket-image,
+.chariot__image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,14 +65,14 @@ html {
   width: 75%;
   padding: 48px;
   text-align: center;
-  border: 1px solid #CDCDCD;
+  border: 1px solid #cdcdcd;
   border-radius: 16px;
 }
 
 .case-study__blurb-title {
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
   font-size: 36px;
-  margin: .5em 0;
+  margin: 0.5em 0;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -84,14 +86,14 @@ html {
 .case-study__section-title {
   font-size: 28px;
   text-transform: uppercase;
-  letter-spacing: .2em;
+  letter-spacing: 0.2em;
   margin: 24px 0;
 }
 
 .case-study__section-subtitle {
   font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   margin: 0;
 }
 
@@ -105,7 +107,7 @@ html {
 }
 
 .case-study__callout-box {
-  background-color: #D9EFFF;
+  background-color: #d9efff;
   display: flex;
 }
 
@@ -117,7 +119,7 @@ html {
 
 .case-study__callout-box__text--quoter {
   margin: 12px 0 0 0;
-  color: #268AE7;
+  color: #268ae7;
 }
 
 .footer {
@@ -125,8 +127,8 @@ html {
 }
 
 .footer__item {
-  transition: transform .3s;
-  -webkit-transition: transform .3s;
+  transition: transform 0.3s;
+  -webkit-transition: transform 0.3s;
 }
 
 /* COLORS */
@@ -136,22 +138,22 @@ html {
 
 .text-light-blue {
   color: #bcdcf7;
-  transition: color 0.50s ease;
+  transition: color 0.5s ease;
 }
 
-.text-dark-blue { 
-  color: #48ABFF;
-  transition: color 0.50s ease;
+.text-dark-blue {
+  color: #48abff;
+  transition: color 0.5s ease;
 }
 
 .text-light-green {
   color: #cafff3;
-  transition: color 0.50s ease;
+  transition: color 0.5s ease;
 }
 
 .text-dark-green {
   color: #34d2ad;
-  transition: color 0.50s ease;
+  transition: color 0.5s ease;
 }
 
 .svg-container svg {
