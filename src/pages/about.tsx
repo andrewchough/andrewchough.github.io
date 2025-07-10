@@ -12,7 +12,7 @@ export default function AboutPage() {
     <>
       <Head>
         <title>About Andrew Chough</title>
-        <link rel="icon" href="/images/logo.ico"></link>
+        <link rel="icon" href="/images/logo.ico" />
       </Head>
       <Navbar />
       <About />
