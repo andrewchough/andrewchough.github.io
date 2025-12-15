@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Image from "next/image";
 
-import { useMediaQuery } from "@mantine/hooks";
+import { useMediaQuery } from "../../../hooks/useMediaQuery";
 
 export default function Header() {
   const [mounted, setMounted] = useState(false);

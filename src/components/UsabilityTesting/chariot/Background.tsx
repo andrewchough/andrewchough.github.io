@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { Divider, Flex, Grid } from "@mantine/core";
-import { useMediaQuery } from "@mantine/hooks";
+import { useMediaQuery } from "../../../hooks/useMediaQuery";
 
 export default function Background() {
   const [mounted, setMounted] = useState(false);
@@ -18,8 +17,8 @@ export default function Background() {
 
   return (
     <>
-      <Grid mx={largeScreen ? 24 : 0}>
-        <Grid.Col lg={8} offsetLg={2}>
+      <div className={largeScreen ? "mx-[24px]" : ""}>
+        <div className="mx-auto w-full lg:w-2/3">
           <h4 className="case-study__section-title">Problem</h4>
           <p className="case-study__text--enlarged">
             Nonprofit officers were spending hours each day processing donations
@@ -34,9 +33,13 @@ export default function Background() {
             to actually act on this information. They needed more than just data
             visibility—they needed workflow optimization.
           </p>
-        </Grid.Col>
-      </Grid>
-      <Flex justify="center" my={48} mx={largeScreen ? 24 : 60}>
+        </div>
+      </div>
+      <div
+        className={`my-[48px] flex justify-center ${
+          largeScreen ? "mx-[24px]" : "mx-[60px]"
+        }`}
+      >
         <div className="case-study__blurb-box">
           <h2
             className={
@@ -53,14 +56,16 @@ export default function Background() {
             workflow?
           </h4>
         </div>
-      </Flex>
-      <Flex
-        className="case-study__callout-box"
-        my={48}
-        px={mediumScreen ? 20 : 200}
-        py={60}
+      </div>
+      <div
+        className={`case-study__callout-box my-[48px] flex py-[60px] ${
+          mediumScreen ? "px-[20px]" : "px-[200px]"
+        }`}
       >
-        <Divider orientation="vertical" size="xl" color="blue" mr={48} />
+        <div
+          aria-hidden="true"
+          className="mr-[48px] w-[6px] shrink-0 self-stretch rounded bg-blue-500"
+        />
         <h4 className="case-study__callout-box__text">
           &quot;I&apos;d spend my entire morning just on donations - opening
           Excel to see what&apos;s assigned to me, then switching to Salesforce
@@ -73,9 +78,8 @@ export default function Background() {
             - Development officer, nonprofit organization
           </span>
         </h4>
-      </Flex>
-      <Grid>
-        <Grid.Col span={8} offset={2} mb={48}>
+      </div>
+      <div className="mx-auto mb-[48px] w-full lg:w-2/3">
           <h4 className="case-study__section-title">Solution</h4>
           <div className="case-study__text--enlarged">
             <p className="mb-4">
@@ -109,8 +113,7 @@ export default function Background() {
               </li>
             </ul>
           </div>
-        </Grid.Col>
-      </Grid>
+      </div>
     </>
   );
 }

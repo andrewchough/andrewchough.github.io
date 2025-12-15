@@ -5,7 +5,7 @@ export default function Conclusion() {
     <div>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-24 grid grid-cols-12">
-          <div className="col-span-11 lg:col-start-1">
+          <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Impact</h4>
             <ul className="case-study__text--enlarged mt-4 list-inside list-disc">
               <li className="font-normal">
@@ -46,7 +46,7 @@ export default function Conclusion() {
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12 grid grid-cols-12">
-          <div className="col-span-10 lg:col-start-1">
+          <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Reflections</h4>
             <p className="case-study__text mt-4">
               This project reinforced that successful design engineering
@@ -81,7 +81,7 @@ export default function Conclusion() {
         </div>
 
         <div className="mb-12 grid grid-cols-12">
-          <div className="col-span-10 lg:col-start-1">
+          <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Conclusion</h4>
             <p className="case-study__text mt-4">
               The most rewarding aspect was seeing nonprofit officers who had

@@ -5,7 +5,7 @@ export default function Conclusion() {
     <div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-12 mb-24">
-          <div className="col-span-11 lg:col-start-1">
+          <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Impact</h4>
             <p className="case-study__text--enlarged">
               The impact of the new changes were felt from the get go. The
@@ -41,7 +41,7 @@ export default function Conclusion() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-12 mb-12">
-          <div className="col-span-10 lg:col-start-1">
+          <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Reflections</h4>
             <p className="case-study__text--enlarged">Constraints</p>
             <p className="case-study__text mt-4">
@@ -64,7 +64,7 @@ export default function Conclusion() {
         </div>
 
         <div className="grid grid-cols-12 mb-12">
-          <div className="col-span-10 lg:col-start-1">
+          <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Conclusion</h4>
             <p className="case-study__text mt-4">
               It&apos;s safe to say that the usability testing sessions provided

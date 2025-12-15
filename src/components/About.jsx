@@ -13,7 +13,7 @@ export default function About() {
         <div className="md:col-span-8 space-y-6">
           <p>
             Hi! My name is Andrew Chough and I&apos;m a founding frontend
-            engineer at Chariot, currently residing in New York City.
+            engineer at MindFort, currently residing in Los Angeles.
           </p>
           <p className="border-y-2 border-gray-300 py-4">
             Full-time <b className="text-white">designer & engineer</b>.

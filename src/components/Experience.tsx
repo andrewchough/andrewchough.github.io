@@ -3,8 +3,15 @@ import React from "react";
 const Experience = () => {
   const experiences = [
     {
+      company: "MINDFORT",
+      date: "(August '25 - Present)",
+      title: "Founding Frontend Engineer",
+      location: "Los Angeles, CA",
+      align: "end",
+    },
+    {
       company: "CHARIOT",
-      date: "(Nov '23 - Present)",
+      date: "(Nov '23 - Aug '25)",
       title: "Founding Frontend Engineer",
       location: "New York, NY",
       align: "start",
@@ -40,25 +47,25 @@ const Experience = () => {
   ];
 
   return (
-    <div className="text-gray-300 font-light py-12 md:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-8">
-        <div className="md:col-span-4 flex justify-start md:justify-between">
+    <div className="py-12 font-light text-gray-300 md:py-24">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 sm:px-6 md:grid-cols-12 lg:px-8">
+        <div className="flex justify-start md:col-span-4 md:justify-between">
           <h2 className="text-2xl font-semibold tracking-widest text-white uppercase">
             Experience
           </h2>
-          <div className="md:w-1 bg-gray-600" />
+          <div className="bg-gray-600 md:w-1" />
         </div>
-        <div className="md:col-span-8 space-y-12">
+        <div className="space-y-12 md:col-span-8">
           {experiences.map((exp, index) => (
             <div
               key={index}
               className={`flex flex-col ${
                 exp.align === "end"
-                  ? "md:items-end text-left md:text-right"
+                  ? "text-left md:items-end md:text-right"
                   : "items-start"
               }`}
             >
-              <h3 className="text-xl font-bold text-white tracking-wider uppercase">
+              <h3 className="text-xl font-bold tracking-wider text-white uppercase">
                 {exp.company}
               </h3>
               <p className="text-sm text-gray-400">{exp.date}</p>

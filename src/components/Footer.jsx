@@ -1,79 +1,45 @@
 import React from "react";
 
-import { Button, Flex } from "@mantine/core";
 import {
   IconBrandGithub,
   IconBrandGmail,
-  IconBrandLinkedin
+  IconBrandLinkedin,
 } from "@tabler/icons";
 
 export default function Footer() {
   return (
     <>
-      <Flex justify="center" my="lg">
-        <Button
-          component="a"
-          size="sm"
-          leftIcon={<IconBrandGithub size={24} />}
-          variant="subtle"
-          color="white"
+      <div className="my-6 flex justify-center gap-1">
+        <a
+          className="inline-flex items-center gap-2 rounded px-2 py-1 text-white transition-colors hover:bg-white/20"
           href="https://github.com/andrewchough"
           target="_blank"
           rel="noreferrer"
-          styles={() => ({
-            root: {
-              color: "white",
-              paddingRight: 0,
-              "&:hover": {
-                backgroundColor: "rgba(255, 255, 255, 0.2)"
-              },
-              marginRight: 4
-            }
-          })}
-        />
-        <Button
-          component="a"
-          size="sm"
-          leftIcon={<IconBrandLinkedin size={24} />}
-          variant="subtle"
-          color="white"
+          aria-label="GitHub"
+        >
+          <IconBrandGithub size={24} />
+        </a>
+        <a
+          className="inline-flex items-center gap-2 rounded px-2 py-1 text-white transition-colors hover:bg-white/20"
           href="https://www.linkedin.com/in/andrewchough"
           target="_blank"
           rel="noreferrer"
-          styles={() => ({
-            root: {
-              color: "white",
-              paddingRight: 0,
-              "&:hover": {
-                backgroundColor: "rgba(255, 255, 255, 0.2)"
-              },
-              marginRight: 4
-            }
-          })}
-        />
-        <Button
-          component="a"
-          size="sm"
-          leftIcon={<IconBrandGmail size={24} />}
-          variant="subtle"
-          color="white"
+          aria-label="LinkedIn"
+        >
+          <IconBrandLinkedin size={24} />
+        </a>
+        <a
+          className="inline-flex items-center gap-2 rounded px-2 py-1 text-white transition-colors hover:bg-white/20"
           href="mailto:andrewchough@gmail.com"
           target="_blank"
           rel="noreferrer"
-          styles={() => ({
-            root: {
-              color: "white",
-              paddingRight: 0,
-              "&:hover": {
-                backgroundColor: "rgba(255, 255, 255, 0.2)"
-              },
-              marginRight: 4
-            }
-          })}
-        />
-      </Flex>
+          aria-label="Email"
+        >
+          <IconBrandGmail size={24} />
+        </a>
+      </div>
       <div>
-        <p className="footer">COPYRIGHT © 2025 ANDREW CHOUGH</p>
+        <p className="footer pb-4">COPYRIGHT © 2025 ANDREW CHOUGH</p>
       </div>
     </>
   );
