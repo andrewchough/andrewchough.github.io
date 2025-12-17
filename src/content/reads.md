@@ -2,6 +2,10 @@
 
 ---
 
+12/17/25
+- [The State of AI Coding 2025](https://www.greptile.com/state-of-ai-coding-2025)
+- [How does sleep deprivation affect your workouts?](https://www.strongerbyscience.com/sleep-deprivation-affect-workouts/)
+
 12/15/25
 - [the middle-class is not a place to stay](https://moontower.substack.com/p/the-middle-class-is-not-a-place-to?utm_source=post-email-title&publication_id=460544&post_id=181442161&utm_campaign=email-post-title&isFreemail=true&r=7pr7f&triedRedirect=true&utm_medium=email)
 
