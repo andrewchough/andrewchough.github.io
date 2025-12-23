@@ -80,39 +80,39 @@ export default function Background() {
         </h4>
       </div>
       <div className="mx-auto mb-[48px] w-full lg:w-2/3">
-          <h4 className="case-study__section-title">Solution</h4>
-          <div className="case-study__text--enlarged">
-            <p className="mb-4">
-              A workflow-optimized donation management system that transformed
-              nonprofit donation processing:
-            </p>
-            <ul className="list-inside list-disc font-normal">
-              <li>
-                State-based workflow navigation with four key stages that match
-                officers&apos; mental models
-              </li>
-              <li>
-                Contextual detail panels that provide comprehensive donation
-                information without losing workflow context or requiring
-                navigation away from task lists
-              </li>
-              <li>
-                Real-time optimistic updates with intelligent state management
-                that immediately reflects changes across tabs and counts as
-                donations move through the workflow
-              </li>
-              <li>
-                Smart assignment and filtering system that allows officers to
-                focus on their specific responsibilities while enabling easy
-                workload redistribution
-              </li>
-              <li>
-                Single-interface consolidation replacing the previous
-                multi-system workflow (Excel, Salesforce, donation portals) with
-                one purpose-built tool
-              </li>
-            </ul>
-          </div>
+        <h4 className="case-study__section-title">Solution</h4>
+        <div className="case-study__text--enlarged">
+          <p className="mb-4">
+            A workflow-optimized donation management system that transformed
+            nonprofit donation processing:
+          </p>
+          <ul className="list-inside list-disc font-normal">
+            <li>
+              State-based workflow navigation with four key stages that match
+              officers&apos; mental models
+            </li>
+            <li>
+              Contextual detail panels that provide comprehensive donation
+              information without losing workflow context or requiring
+              navigation away from task lists
+            </li>
+            <li>
+              Real-time optimistic updates with intelligent state management
+              that immediately reflects changes across tabs and counts as
+              donations move through the workflow
+            </li>
+            <li>
+              Smart assignment and filtering system that allows officers to
+              focus on their specific responsibilities while enabling easy
+              workload redistribution
+            </li>
+            <li>
+              Single-interface consolidation replacing the previous multi-system
+              workflow (Excel, Salesforce, donation portals) with one
+              purpose-built tool
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

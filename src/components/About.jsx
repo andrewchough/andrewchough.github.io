@@ -2,15 +2,15 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="text-gray-300 font-light py-12 md:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-8">
-        <div className="md:col-span-4 flex justify-start md:justify-between">
+    <div className="py-12 font-light text-gray-300 md:py-24">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 sm:px-6 md:grid-cols-12 lg:px-8">
+        <div className="flex justify-start md:col-span-4 md:justify-between">
           <h2 className="text-2xl font-semibold tracking-widest text-white uppercase">
             About
           </h2>
-          <div className="md:w-1 bg-gray-600" />
+          <div className="bg-gray-600 md:w-1" />
         </div>
-        <div className="md:col-span-8 space-y-6">
+        <div className="space-y-6 md:col-span-8">
           <p>
             Hi! My name is Andrew Chough and I&apos;m a founding frontend
             engineer at MindFort, currently residing in Los Angeles.

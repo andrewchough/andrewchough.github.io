@@ -107,25 +107,25 @@ export default function Background() {
         </h4>
       </div>
       <div className="mx-auto mb-[48px] w-full lg:w-2/3">
-          <h4 className="case-study__section-title">Solution</h4>
-          <div className="case-study__text--enlarged">
-            A lightweight usability testing framework that consisted of:
-            <ul className="list-disc list-inside">
-              <li>Bi-weekly 30-minute testing sessions with 5-8 developers</li>
-              <li>
-                A standardized feedback collection process using task-based
-                scenarios
-              </li>
-              <li>
-                A prioritization matrix to quickly identify which issues to
-                address first
-              </li>
-              <li>
-                Integration with our existing JIRA workflow to track UX
-                improvements
-              </li>
-            </ul>
-          </div>
+        <h4 className="case-study__section-title">Solution</h4>
+        <div className="case-study__text--enlarged">
+          A lightweight usability testing framework that consisted of:
+          <ul className="list-inside list-disc">
+            <li>Bi-weekly 30-minute testing sessions with 5-8 developers</li>
+            <li>
+              A standardized feedback collection process using task-based
+              scenarios
+            </li>
+            <li>
+              A prioritization matrix to quickly identify which issues to
+              address first
+            </li>
+            <li>
+              Integration with our existing JIRA workflow to track UX
+              improvements
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

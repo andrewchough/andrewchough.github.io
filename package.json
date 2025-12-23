@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "next build --turbopack",
-    "dev": "next",
+    "dev": "next dev",
     "prettier": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "next start",
     "lint": "eslint --fix \"**/*.{js,jsx,ts,tsx}\""

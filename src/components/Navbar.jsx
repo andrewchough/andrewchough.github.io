@@ -32,17 +32,17 @@ export default function Navbar() {
       <div className="navbar__name__container">
         <Link
           href="/"
-          className="navbar__name hover:underline underline-offset-4 transition-all"
+          className="navbar__name underline-offset-4 transition-all hover:underline"
         >
           ANDREW CHOUGH
         </Link>
       </div>
       <div>
-        <div className="float-right md-max:m-auto">
+        <div className="md-max:m-auto float-right">
           <div ref={menuRef} className="relative inline-block">
             <button
               type="button"
-              className="navbar__name inline-flex items-center gap-1 hover:underline underline-offset-4 transition-all"
+              className="navbar__name inline-flex items-center gap-1 underline-offset-4 transition-all hover:underline"
               aria-haspopup="menu"
               aria-expanded={open}
               onClick={() => setOpen(v => !v)}
@@ -97,7 +97,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1ql0vyidt-7H0HfWyubDNT-oOvvJelcu5/view?usp=sharing"
-            className="navbar__name navbar__name--resume hover:underline underline-offset-4 transition-all"
+            className="navbar__name navbar__name--resume underline-offset-4 transition-all hover:underline"
           >
             RESUME
           </a>

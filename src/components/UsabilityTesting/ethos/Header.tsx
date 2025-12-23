@@ -21,7 +21,7 @@ export default function Header() {
       <h1 className="case-study__page-title">
         Introducing Usability Testing to Ethos
       </h1>
-      <div className="flex justify-center mb-12">
+      <div className="mb-12 flex justify-center">
         <Image
           src="/images/rocket.png"
           alt="Rocket logo"
@@ -33,7 +33,7 @@ export default function Header() {
         className={`grid grid-cols-12 gap-5 ${largeScreen ? "px-12" : "ml-30"}`}
       >
         <div className="col-span-12 lg:col-span-2">
-          <h4 className="text-xl font-semibold mb-2">Role</h4>
+          <h4 className="mb-2 text-xl font-semibold">Role</h4>
           Frontend Engineer & UI/UX Designer
         </div>
         <div
@@ -41,7 +41,7 @@ export default function Header() {
             largeScreen ? "my-3" : ""
           }`}
         >
-          <h4 className="text-xl font-semibold mb-2">Team</h4>
+          <h4 className="mb-2 text-xl font-semibold">Team</h4>
           <p>
             <u>3 Engineers:</u> Andrew Chough, Bryan Lam, Hera Kim
           </p>
@@ -54,7 +54,7 @@ export default function Header() {
             largeScreen ? "mb-3" : ""
           }`}
         >
-          <h4 className="text-xl font-semibold mb-2">Tools Used</h4>
+          <h4 className="mb-2 text-xl font-semibold">Tools Used</h4>
           Adobe XD, Git
         </div>
         <div
@@ -62,12 +62,12 @@ export default function Header() {
             largeScreen ? "my-3" : ""
           }`}
         >
-          <h4 className="text-xl font-semibold mb-2">Duration</h4>
+          <h4 className="mb-2 text-xl font-semibold">Duration</h4>
           January &apos;21 - August &apos;21
         </div>
       </div>
       <div
-        className={`flex justify-center my-12 ${
+        className={`my-12 flex justify-center ${
           largeScreen ? "mx-6" : "mx-15"
         }`}
       >

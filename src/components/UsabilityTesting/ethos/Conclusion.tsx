@@ -3,8 +3,8 @@ import React from "react";
 export default function Conclusion() {
   return (
     <div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-12 mb-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-24 grid grid-cols-12">
           <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Impact</h4>
             <p className="case-study__text--enlarged">
@@ -25,10 +25,10 @@ export default function Conclusion() {
         </div>
       </div>
 
-      <div className="bg-blue-100 my-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8 case-study__callout-box">
+      <div className="my-12 bg-blue-100 px-4 sm:px-6 lg:px-8">
+        <div className="case-study__callout-box mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="border-l-4 border-blue-500 pl-8">
-            <p className="mb-4 case-study__callout-box__text">
+            <p className="case-study__callout-box__text mb-4">
               &ldquo;For the developers that helped developed the new onboarding
               feature, kudos. It has been a pleasant change.&rdquo;
             </p>
@@ -39,8 +39,8 @@ export default function Conclusion() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-12 mb-12">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mb-12 grid grid-cols-12">
           <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Reflections</h4>
             <p className="case-study__text--enlarged">Constraints</p>
@@ -63,7 +63,7 @@ export default function Conclusion() {
           </div>
         </div>
 
-        <div className="grid grid-cols-12 mb-12">
+        <div className="mb-12 grid grid-cols-12">
           <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Conclusion</h4>
             <p className="case-study__text mt-4">

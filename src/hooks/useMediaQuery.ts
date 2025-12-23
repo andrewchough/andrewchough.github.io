@@ -9,7 +9,10 @@ export function useMediaQuery(query: string): boolean {
   const [matches, setMatches] = useState(false);
 
   useEffect(() => {
-    if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
+    if (
+      typeof window === "undefined" ||
+      typeof window.matchMedia !== "function"
+    ) {
       return;
     }
 
@@ -28,14 +31,21 @@ export function useMediaQuery(query: string): boolean {
     }
 
     // Older Safari
-    mql.addListener(onChange as unknown as (this: MediaQueryList, ev: MediaQueryListEvent) => void);
+    mql.addListener(
+      onChange as unknown as (
+        this: MediaQueryList,
+        ev: MediaQueryListEvent
+      ) => void
+    );
     return () => {
       mql.removeListener(
-        onChange as unknown as (this: MediaQueryList, ev: MediaQueryListEvent) => void,
+        onChange as unknown as (
+          this: MediaQueryList,
+          ev: MediaQueryListEvent
+        ) => void
       );
     };
   }, [query]);
 
   return matches;
 }
-

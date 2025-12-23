@@ -8,18 +8,18 @@ export default function Process() {
         src="/images/usability-testing.jpeg"
         alt="Picture of woman conducting a usability testing session virtually with a user."
         quality={100}
-        className="w-full h-[360px] object-cover"
+        className="h-[360px] w-full object-cover"
         width={1000}
         height={360}
       />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mt-12 grid grid-cols-12">
           <div className="col-span-12 lg:col-span-8 lg:col-start-3">
             <h4 className="case-study__section-title">Process</h4>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
-          <div className="md:col-span-8 lg:col-start-1 md:pr-6">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-12">
+          <div className="md:col-span-8 md:pr-6 lg:col-start-1">
             <h5 className="case-study__section-subtitle font-semibold">
               Moving from impromptu to agile
             </h5>
@@ -46,12 +46,12 @@ export default function Process() {
             <Image
               src="/images/meeting.jpeg"
               alt="Picture of several colleagues discussing around a table."
-              className="hidden md:block w-full h-[430px] object-cover mb-15"
+              className="mb-15 hidden h-[430px] w-full object-cover md:block"
               width={441}
               height={330}
             />
           </div>
-          <div className="md:col-span-8 lg:col-start-1 md:pr-6">
+          <div className="md:col-span-8 md:pr-6 lg:col-start-1">
             <h5 className="case-study__section-subtitle font-semibold">
               Igniting the conversations
             </h5>
@@ -73,12 +73,12 @@ export default function Process() {
             <Image
               src="/images/brainstorming.png"
               alt="Picture of woman presenting information on a whiteboard between two ideations of an app."
-              className="hidden md:block w-full h-[300px] object-cover mb-15"
+              className="mb-15 hidden h-[300px] w-full object-cover md:block"
               width={441}
               height={300}
             />
           </div>
-          <div className="md:col-span-8 lg:col-start-1 md:pr-6">
+          <div className="md:col-span-8 md:pr-6 lg:col-start-1">
             <h5 className="case-study__section-subtitle font-semibold">
               Executing user sessions
             </h5>
@@ -104,13 +104,13 @@ export default function Process() {
             <Image
               src="/images/prototype.png"
               alt="Picture of a person pointing at a phone."
-              className="hidden md:block w-full h-[350px] object-cover mb-15"
+              className="mb-15 hidden h-[350px] w-full object-cover md:block"
               width={441}
               height={350}
             />
           </div>
-          <div className="md:col-span-8 lg:col-start-1 md:pr-6">
-            <h5 className="case-study__section-subtitle font-semibold ">
+          <div className="md:col-span-8 md:pr-6 lg:col-start-1">
+            <h5 className="case-study__section-subtitle font-semibold">
               Generalizing the process
             </h5>
             <p className="mt-2">
@@ -131,7 +131,7 @@ export default function Process() {
             <Image
               src="/images/analysis.png"
               alt="Picture of colleagues putting up and analyzing post-it notes on a clear glass wall."
-              className="hidden md:block w-full h-[300px] object-cover mb-15"
+              className="mb-15 hidden h-[300px] w-full object-cover md:block"
               width={441}
               height={300}
             />

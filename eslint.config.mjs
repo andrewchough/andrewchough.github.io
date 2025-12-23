@@ -17,7 +17,7 @@ const compat = new FlatCompat({
 
 export default defineConfig([
   {
-    ignores: ["**/.next/**"],
+    ignores: ["**/.next/**", "next-env.d.ts"],
   },
   {
     files: ["**/*.{js,jsx,ts,tsx}"],

@@ -110,4 +110,3 @@ export function parseDatedBullets(markdown: string): DatedBulletGroup[] {
   flush();
   return groups;
 }
-
