@@ -1,27 +1,18 @@
 import React from "react";
 
 import Head from "next/head";
-import fs from "fs";
-import path from "path";
 
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { parseDatedBullets, type DatedBulletGroup } from "../lib/datedBullets";
+import { getContentProps, type ContentPageProps } from "../lib/getContentProps";
 
 import type { GetStaticProps } from "next";
 
-type MusicPageProps = {
-  groups: DatedBulletGroup[];
+export const getStaticProps: GetStaticProps<ContentPageProps> = async () => {
+  return { props: getContentProps("music.md") };
 };
 
-export const getStaticProps: GetStaticProps<MusicPageProps> = async () => {
-  const filePath = path.join(process.cwd(), "src", "content", "music.md");
-  const markdown = fs.readFileSync(filePath, "utf8");
-  const groups = parseDatedBullets(markdown);
-  return { props: { groups } };
-};
-
-export default function MusicPage({ groups }: MusicPageProps) {
+export default function MusicPage({ groups }: ContentPageProps) {
   return (
     <>
       <Head>
@@ -33,9 +24,7 @@ export default function MusicPage({ groups }: MusicPageProps) {
       <main className="mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8">
         <header className="pt-14 pb-8">
           <h1 className="text-3xl font-bold">Music</h1>
-          <p className="mt-3 text-white/75">
-            A running list of songs/albums I want to revisit.
-          </p>
+          <p className="mt-3 text-white/75">An eclectic collection of music.</p>
         </header>
         <section className="pb-16">
           <div className="space-y-10">

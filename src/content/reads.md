@@ -2,6 +2,19 @@
 
 ---
 
+2/6/26
+- [if you see something beautiful in someone, tell them](https://peoplesarchive.substack.com/p/if-you-see-something-beautiful-in)
+
+2/5/26
+- [The logo soup problem (and how to solve it)](https://www.sanity.io/blog/the-logo-soup-problem)
+- [Best design system examples in 2026](https://www.adhamdannaway.com/blog/design-systems/design-system-examples)
+
+1/28/26
+- [your phone is the reason you have no identity](https://theweeklyscrapbook.substack.com/p/your-phone-is-the-reason-you-have)
+
+1/5/26
+- [It’s hard to justify Tahoe icons](https://tonsky.me/blog/tahoe-icons/)
+
 12/17/25
 
 - [The State of AI Coding 2025](https://www.greptile.com/state-of-ai-coding-2025)

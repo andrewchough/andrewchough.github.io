@@ -90,6 +90,14 @@ export default function Navbar() {
                 >
                   MUSIC
                 </Link>
+                <Link
+                  href="/blogs"
+                  role="menuitem"
+                  className="block px-3 py-2 text-sm text-white/80 hover:bg-white/10 hover:text-white"
+                  onClick={() => setOpen(false)}
+                >
+                  BLOG
+                </Link>
               </div>
             ) : null}
           </div>

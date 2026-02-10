@@ -1,27 +1,18 @@
 import React from "react";
 
 import Head from "next/head";
-import fs from "fs";
-import path from "path";
 
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { parseDatedBullets, type DatedBulletGroup } from "../lib/datedBullets";
+import { getContentProps, type ContentPageProps } from "../lib/getContentProps";
 
 import type { GetStaticProps } from "next";
 
-type ReadsPageProps = {
-  groups: DatedBulletGroup[];
+export const getStaticProps: GetStaticProps<ContentPageProps> = async () => {
+  return { props: getContentProps("reads.md") };
 };
 
-export const getStaticProps: GetStaticProps<ReadsPageProps> = async () => {
-  const filePath = path.join(process.cwd(), "src", "content", "reads.md");
-  const markdown = fs.readFileSync(filePath, "utf8");
-  const groups = parseDatedBullets(markdown);
-  return { props: { groups } };
-};
-
-export default function ReadsPage({ groups }: ReadsPageProps) {
+export default function ReadsPage({ groups }: ContentPageProps) {
   return (
     <>
       <Head>
