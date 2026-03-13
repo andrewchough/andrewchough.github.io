@@ -20,7 +20,7 @@
 
 2/9/26
 
-- [[playlist] ma boy](https://www.youtube.com/watch?v=2xLS8Jnkq1Y)
+- [playlist: ma boy](https://www.youtube.com/watch?v=2xLS8Jnkq1Y)
 - [Marvin Sapp - None Like You Medley](https://open.spotify.com/track/17aEmYwr9E9dO2uhLvGzrH?si=3c3810fefbca4461)
 
 2/7/26
