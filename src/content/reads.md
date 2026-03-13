@@ -2,6 +2,23 @@
 
 ---
 
+3/12/26
+- [A calmer interface for a product in motion](https://linear.app/now/behind-the-latest-design-refresh)
+
+2/17/26
+- [you can just do stuff](https://alicemaz.substack.com/p/you-can-just-do-stuff)
+
+2/13/26
+- [Buying Futures, Renting the Past: How Speculation and Nostalgia Became the Economy](https://substack.com/home/post/p-186777201)
+
+2/12/26
+- [An AI Agent Published a Hit Piece on Me](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
+  - [GitHub thread](https://github.com/matplotlib/matplotlib/pull/31132)
+  - [Hacker News Thread](https://news.ycombinator.com/item?id=46990729)
+
+2/11/26
+- [Components Will Kill Pages](https://bitsandbytes.dev/posts/components-will-kill-pages)
+
 2/6/26
 
 - [if you see something beautiful in someone, tell them](https://peoplesarchive.substack.com/p/if-you-see-something-beautiful-in)
