@@ -2,20 +2,29 @@
 
 ---
 
-3/1/26
+4/14/26
+
+- [Fred again.. & Thomas Bangalter (USB002, Alexandra Palace, London 27 February 2026)](https://www.youtube.com/watch?v=gfF8jzBVWvM&t=3s)
+
+3/11/26
+
 - [Brent Faiyaz - other side.](https://open.spotify.com/track/2iZ9yiTcL1iywzSUZxlJrZ?si=6ce8e26418324145)
 
 3/10/26
+
 - [Clairo - Amoeba](https://open.spotify.com/track/0HAqq2GcQKyi3s87GuN7jU?si=72ee5f20d9b24e4e)
 
 3/5/26
+
 - [J. Cole - Apparently](https://open.spotify.com/track/5O59s7bCgTFsXDXlWecyQ1?si=167d35ad07624c74)
 
 2/27/26
+
 - [Lil Tecca - Dark Thoughts](https://open.spotify.com/track/7lv4SU2ATVjQJp6Jia0x7N?si=3a058a5ae1814ce9)
 - [Baby Keem, Too $hort - $ex Appeal](https://open.spotify.com/track/2N1D5t5zkvlNElbH9q0vBv?si=3b25926a13ea4c95)
 
 2/20/26
+
 - [Baby Keem - Ca$ino](https://open.spotify.com/track/3VW6HJYa5l0uzGcCRA222P?si=a02d7d0191514e90)
 
 2/9/26

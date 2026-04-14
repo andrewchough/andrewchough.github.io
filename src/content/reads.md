@@ -2,6 +2,11 @@
 
 ---
 
+3/18/26
+- [Temporal: The 9-Year Journey to Fix Time in JavaScript](https://bloomberg.github.io/js-blog/post/temporal/)
+  - [Hacker News Thread](https://news.ycombinator.com/item?id=47336989)
+- [I make good money. Why do I still feel like this?](https://yourbrainonmoney.substack.com/p/i-make-good-money-why-do-i-still)
+
 3/12/26
 - [A calmer interface for a product in motion](https://linear.app/now/behind-the-latest-design-refresh)
 
