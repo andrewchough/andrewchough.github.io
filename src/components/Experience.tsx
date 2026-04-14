@@ -5,7 +5,7 @@ const Experience = () => {
     {
       company: "MINDFORT",
       date: "(August '25 - Present)",
-      title: "Founding Frontend Engineer",
+      title: "Founding Engineer",
       location: "Los Angeles, CA",
       align: "end",
     },

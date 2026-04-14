@@ -39,7 +39,7 @@ export default function Footer() {
         </a>
       </div>
       <div>
-        <p className="footer pb-4">COPYRIGHT © 2025 ANDREW CHOUGH</p>
+        <p className="footer pb-4">COPYRIGHT © 2026 ANDREW CHOUGH</p>
       </div>
     </>
   );

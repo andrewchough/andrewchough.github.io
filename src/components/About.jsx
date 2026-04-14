@@ -32,11 +32,12 @@ export default function About() {
           </p>
           <p>
             I was born and raised in the Bay Area, went to college in the Boston
-            area, and am now residing in the Big Apple. Over the years,
-            I&apos;ve become infatuated with music - ranging from hip-hop to
-            jazz. I&apos;ve been playing the saxophone for more than twelve
-            years, participating in bands such as the Wind Ensemble in high
-            school to the Boston College Marching Band during my time at BC.
+            area, spent the first 5 years of my professional life in New York,
+            and am now residing in Los Angeles. Over the years, I&apos;ve become
+            infatuated with music - ranging from hip-hop to jazz. I&apos;ve been
+            playing the saxophone for more than twelve years, participating in
+            bands such as the Wind Ensemble in high school to the Boston College
+            Marching Band during my time at BC.
           </p>
           <p>
             My hobbies outside of the office include{" "}
